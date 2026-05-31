@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T09:38:07Z",
+  "generated": "2026-05-31T09:38:39Z",
   "agents": [
     {
       "id": "review-agent",
@@ -8,7 +8,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-05-31T09:38:03Z",
-      "age_sec": 4
+      "age_sec": 35
     }
   ],
   "tasks": [
@@ -38,6 +38,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 11,
+      "title": "Agent discipline: surgical PRs + no aider artifacts (unblock auto-merge)",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/11",
+      "updated": "2026-05-31T09:38:33Z"
+    },
     {
       "number": 10,
       "title": "Self-sufficient secrets: vault + auto-sync (provide each secret once, ever)",
