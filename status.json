@@ -1,0 +1,23 @@
+{
+  "swarm": "de-montfort",
+  "generated": "2026-05-31T03:23:42Z",
+  "agents": [],
+  "tasks": [],
+  "pull_requests": [
+    {
+      "number": 1,
+      "title": "Coordinated agent swarm + live control dashboard",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/1",
+      "updated": "2026-05-31T03:20:50Z"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ae36f03",
+      "msg": "Restructure: swarm scaffold at repo root so GitHub Actions is active",
+      "date": "2026-05-31T01:58:56Z"
+    }
+  ]
+}

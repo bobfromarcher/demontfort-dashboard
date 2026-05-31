@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>de Montfort — Swarm Control</title>
+<style>
+  :root{--bg:#0b0e14;--card:#151a23;--line:#222b39;--txt:#e6edf3;--mut:#8b98a9;
+        --grn:#3fb950;--ylw:#d29922;--blu:#58a6ff;--red:#f85149;--pur:#bc8cff}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--txt);
+    font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  header{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;
+    align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;background:var(--bg);z-index:5}
+  h1{font-size:18px;margin:0;font-weight:650}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:6px}
+  .muted{color:var(--mut)} .pill{padding:2px 9px;border-radius:999px;font-size:12px;border:1px solid var(--line)}
+  main{padding:18px;max-width:1100px;margin:0 auto;display:grid;gap:18px;grid-template-columns:1fr 1fr}
+  @media(max-width:780px){main{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:0 0 10px}
+  .row{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+  .row:first-of-type{border-top:0}
+  a{color:var(--blu);text-decoration:none} a:hover{text-decoration:underline}
+  .btn{display:inline-block;background:var(--blu);color:#001;padding:9px 14px;border-radius:8px;font-weight:600;margin-right:8px}
+  .btn.alt{background:transparent;color:var(--blu);border:1px solid var(--blu)} .grid-full{grid-column:1/-1}
+  code{background:#0b0e14;padding:1px 6px;border-radius:5px;color:var(--pur);font-size:13px}
+  .big{font-size:26px;font-weight:700} .stat{text-align:center}
+  .stats{display:flex;gap:14px;flex-wrap:wrap}.stats .card{flex:1;min-width:120px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🤖 de Montfort — Swarm Control</h1>
+  <span id="gen" class="muted"></span>
+  <span style="flex:1"></span>
+  <a class="btn" id="newtask" href="#" target="_blank">+ New task</a>
+  <a class="btn alt" id="repo" href="#" target="_blank">Repo</a>
+</header>
+<main>
+  <div class="stats grid-full">
+    <div class="card stat"><div class="big" id="s-online">–</div><div class="muted">agents online</div></div>
+    <div class="card stat"><div class="big" id="s-ready">–</div><div class="muted">tasks ready</div></div>
+    <div class="card stat"><div class="big" id="s-work">–</div><div class="muted">in progress</div></div>
+    <div class="card stat"><div class="big" id="s-pr">–</div><div class="muted">open PRs</div></div>
+  </div>
+  <div class="card"><h2>Agents</h2><div id="agents"><div class="muted">loading…</div></div></div>
+  <div class="card"><h2>Task board</h2><div id="tasks"><div class="muted">loading…</div></div></div>
+  <div class="card"><h2>Pull requests</h2><div id="prs"><div class="muted">loading…</div></div></div>
+  <div class="card"><h2>Recent commits</h2><div id="commits"><div class="muted">loading…</div></div></div>
+</main>
+<script>
+const SWARM_REPO = "bobfromarcher/demontfort";
+const STATUS_URL = "status.json";
+const C={offline:"#8b98a9",idle:"#3fb950",working:"#d29922",ready:"#58a6ff",
+         "in-review":"#bc8cff",done:"#3fb950",claimed:"#d29922",open:"#3fb950",closed:"#f85149"};
+const dot=c=>`<span class="dot" style="background:${c||'#8b98a9'}"></span>`;
+const esc=s=>(s||"").replace(/[&<>]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m]));
+document.getElementById("repo").href="https://github.com/"+SWARM_REPO;
+document.getElementById("newtask").href=
+  "https://github.com/"+SWARM_REPO+"/issues/new?labels=task,ready&title=&body=Describe+the+task+for+the+swarm.";
+async function load(){
+  let d; try{ d=await (await fetch(STATUS_URL+"?t="+Date.now())).json(); }
+  catch(e){ document.getElementById("gen").textContent="status.json not published yet — swarm is starting"; return; }
+  const ag=d.agents||[],tk=d.tasks||[],pr=d.pull_requests||[],cm=d.commits||[];
+  document.getElementById("s-online").textContent=ag.filter(a=>a.status!=="offline").length;
+  document.getElementById("s-ready").textContent=tk.filter(t=>t.state==="ready").length;
+  document.getElementById("s-work").textContent=tk.filter(t=>["claimed","in-review"].includes(t.state)).length;
+  document.getElementById("s-pr").textContent=pr.filter(p=>p.state==="open").length;
+  document.getElementById("gen").textContent="updated "+(d.generated||"?");
+  document.getElementById("agents").innerHTML = ag.length? ag.map(a=>
+    `<div class="row"><span>${dot(C[a.status])}<code>${esc(a.id)}</code></span>
+     <span class="muted">${esc(a.status)}${a.issue?(" · #"+a.issue):""}</span></div>`).join("")
+    : `<div class="muted">No agents reporting yet.</div>`;
+  document.getElementById("tasks").innerHTML = tk.length? tk.map(t=>
+    `<div class="row"><span><a href="${t.url}" target="_blank">#${t.number} ${esc(t.title)}</a></span>
+     <span class="pill" style="border-color:${C[t.state]};color:${C[t.state]}">${t.state}</span></div>`).join("")
+    : `<div class="muted">No tasks yet. Hit “+ New task”.</div>`;
+  document.getElementById("prs").innerHTML = pr.length? pr.map(p=>
+    `<div class="row"><span><a href="${p.url}" target="_blank">#${p.number} ${esc(p.title)}</a></span>
+     <span class="pill" style="border-color:${p.merged?C.done:C[p.state]};color:${p.merged?C.done:C[p.state]}">${p.merged?"merged":p.state}</span></div>`).join("")
+    : `<div class="muted">No pull requests yet.</div>`;
+  document.getElementById("commits").innerHTML = cm.length? cm.map(c=>
+    `<div class="row"><span><code>${c.sha}</code> ${esc(c.msg)}</span>
+     <span class="muted">${(c.date||"").slice(0,10)}</span></div>`).join("")
+    : `<div class="muted">No commits yet.</div>`;
+}
+load(); setInterval(load, 20000);
+</script>
+</body>
+</html>
