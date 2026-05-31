@@ -1,14 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T09:40:45Z",
+  "generated": "2026-05-31T09:41:17Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
       "issue": 11,
-      "ts": "2026-05-31T09:40:20Z",
-      "age_sec": 25
+      "ts": "2026-05-31T09:41:05Z",
+      "age_sec": 11
     }
   ],
   "tasks": [
@@ -44,7 +44,7 @@
       "state": "open",
       "merged": false,
       "url": "https://github.com/bobfromarcher/demontfort/pull/11",
-      "updated": "2026-05-31T09:38:33Z"
+      "updated": "2026-05-31T09:41:10Z"
     },
     {
       "number": 10,
