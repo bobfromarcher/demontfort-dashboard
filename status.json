@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T04:14:17Z",
+  "generated": "2026-05-31T04:14:49Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,15 +8,15 @@
       "status": "working",
       "issue": 5,
       "ts": "2026-05-31T04:14:05Z",
-      "age_sec": 12
+      "age_sec": 44
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "working",
-      "issue": 4,
-      "ts": "2026-05-31T04:11:19Z",
-      "age_sec": 177
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-05-31T04:14:42Z",
+      "age_sec": 7
     },
     {
       "id": "agent-demontfort-s-3",
@@ -24,15 +24,15 @@
       "status": "working",
       "issue": 3,
       "ts": "2026-05-31T04:11:14Z",
-      "age_sec": 182
+      "age_sec": 215
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T04:14:04Z",
-      "age_sec": 13
+      "ts": "2026-05-31T04:14:49Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
@@ -45,7 +45,7 @@
     {
       "number": 4,
       "title": "Add CONTRIBUTING.md and issue templates",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/4"
     },
     {
@@ -62,6 +62,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 8,
+      "title": "[agent-demontfort-s-2] Add CONTRIBUTING.md and issue templates",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/8",
+      "updated": "2026-05-31T04:14:40Z"
+    },
     {
       "number": 7,
       "title": "Fix VM bootstrap: cloud-init 'source' bug that broke every boot",
