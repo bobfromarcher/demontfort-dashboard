@@ -1,14 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T17:22:08Z",
+  "generated": "2026-05-31T17:26:59Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T17:21:33Z",
-      "age_sec": 34
+      "ts": "2026-05-31T17:26:58Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
@@ -38,6 +38,22 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 13,
+      "title": "Operator experience: dm CLI + runbook + product backlog",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/13",
+      "updated": "2026-05-31T17:24:48Z"
+    },
+    {
+      "number": 12,
+      "title": "Harden swarm agent: dedupe + guard + self-report idle reason",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/12",
+      "updated": "2026-05-31T17:22:39Z"
+    },
     {
       "number": 11,
       "title": "Agent discipline: surgical PRs + no aider artifacts (unblock auto-merge)",
@@ -97,6 +113,16 @@
   ],
   "commits": [
     {
+      "sha": "6743e87",
+      "msg": "Operator experience: dm CLI + runbook + product backlog (#13)",
+      "date": "2026-05-31T17:24:46Z"
+    },
+    {
+      "sha": "f930a0a",
+      "msg": "Harden swarm agent: dedupe list_ready, guard API errors, self-report (#12)",
+      "date": "2026-05-31T17:22:37Z"
+    },
+    {
       "sha": "4967031",
       "msg": "Agent discipline: surgical PRs + no aider artifacts (unblock auto-merge) (#11)",
       "date": "2026-05-31T09:42:32Z"
@@ -141,5 +167,6 @@
       "msg": "Restructure: swarm scaffold at repo root so GitHub Actions is active",
       "date": "2026-05-31T01:58:56Z"
     }
-  ]
+  ],
+  "platform": {}
 }
