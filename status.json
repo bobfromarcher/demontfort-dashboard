@@ -1,8 +1,47 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T03:24:49Z",
-  "agents": [],
+  "generated": "2026-05-31T04:11:02Z",
+  "agents": [
+    {
+      "id": "agent-demontfort-s-1",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-05-31T04:11:02Z",
+      "age_sec": 0
+    },
+    {
+      "id": "agent-demontfort-s-2",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-05-31T04:11:02Z",
+      "age_sec": 0
+    },
+    {
+      "id": "agent-demontfort-s-3",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-05-31T04:11:02Z",
+      "age_sec": 0
+    },
+    {
+      "id": "review-agent",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-05-31T04:11:02Z",
+      "age_sec": 0
+    }
+  ],
   "tasks": [
+    {
+      "number": 5,
+      "title": "gradeafoods.com revision",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/5"
+    },
     {
       "number": 4,
       "title": "Add CONTRIBUTING.md and issue templates",
@@ -24,15 +63,56 @@
   ],
   "pull_requests": [
     {
+      "number": 7,
+      "title": "Fix VM bootstrap: cloud-init 'source' bug that broke every boot",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/7",
+      "updated": "2026-05-31T04:06:17Z"
+    },
+    {
+      "number": 6,
+      "title": "Automated review agent: auto-merge safe PRs, escalate risky ones",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/6",
+      "updated": "2026-05-31T03:54:30Z"
+    },
+    {
       "number": 1,
       "title": "Coordinated agent swarm + live control dashboard",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/1",
-      "updated": "2026-05-31T03:20:50Z"
+      "updated": "2026-05-31T03:48:48Z"
     }
   ],
   "commits": [
+    {
+      "sha": "9380f1f",
+      "msg": "Fix VM bootstrap: cloud-init ran 'source' under dash (broke all boots) (#7)",
+      "date": "2026-05-31T04:06:15Z"
+    },
+    {
+      "sha": "fe194ff",
+      "msg": "Lean VM boot: make OpenHands + Docker opt-in (fix 1GB droplet stall)",
+      "date": "2026-05-31T03:56:23Z"
+    },
+    {
+      "sha": "916f6ef",
+      "msg": "Add automated review agent (auto-merge safe PRs, escalate risky) (#6)",
+      "date": "2026-05-31T03:54:28Z"
+    },
+    {
+      "sha": "3132e96",
+      "msg": "Merge pull request #1 from bobfromarcher/feat/coordinated-swarm-dashboard",
+      "date": "2026-05-31T03:48:47Z"
+    },
+    {
+      "sha": "64e24b1",
+      "msg": "Add coordinated swarm + live control dashboard",
+      "date": "2026-05-31T03:20:22Z"
+    },
     {
       "sha": "ae36f03",
       "msg": "Restructure: swarm scaffold at repo root so GitHub Actions is active",
