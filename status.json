@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T19:48:18Z",
+  "generated": "2026-05-31T19:48:50Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-05-31T19:48:18Z",
-      "age_sec": 0
+      "ts": "2026-05-31T19:48:49Z",
+      "age_sec": 1
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,8 +17,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-05-31T19:48:01Z",
-      "age_sec": 17
+      "ts": "2026-05-31T19:48:31Z",
+      "age_sec": 19
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,8 +26,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-05-31T19:48:00Z",
-      "age_sec": 18
+      "ts": "2026-05-31T19:48:30Z",
+      "age_sec": 20
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-05-31T19:48:17Z",
-      "age_sec": 1
+      "age_sec": 33
     }
   ],
   "tasks": [
