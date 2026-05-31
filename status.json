@@ -1,8 +1,27 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T03:23:42Z",
+  "generated": "2026-05-31T03:24:49Z",
   "agents": [],
-  "tasks": [],
+  "tasks": [
+    {
+      "number": 4,
+      "title": "Add CONTRIBUTING.md and issue templates",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/4"
+    },
+    {
+      "number": 3,
+      "title": "Build the de Montfort LLC landing page",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/3"
+    },
+    {
+      "number": 2,
+      "title": "Scaffold a TypeScript + Vite app skeleton",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/2"
+    }
+  ],
   "pull_requests": [
     {
       "number": 1,
