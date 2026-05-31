@@ -1,14 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T09:53:57Z",
+  "generated": "2026-05-31T09:54:29Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T09:53:12Z",
-      "age_sec": 45
+      "ts": "2026-05-31T09:53:58Z",
+      "age_sec": 31
     }
   ],
   "tasks": [
