@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T04:27:42Z",
+  "generated": "2026-05-31T04:28:14Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,31 +8,31 @@
       "status": "offline",
       "issue": 5,
       "ts": "2026-05-31T04:14:05Z",
-      "age_sec": 816
+      "age_sec": 849
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T04:27:17Z",
-      "age_sec": 24
+      "ts": "2026-05-31T04:27:48Z",
+      "age_sec": 26
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
-      "status": "offline",
-      "issue": 3,
-      "ts": "2026-05-31T04:11:14Z",
-      "age_sec": 987
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-05-31T04:28:06Z",
+      "age_sec": 8
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T04:27:10Z",
-      "age_sec": 31
+      "ts": "2026-05-31T04:27:56Z",
+      "age_sec": 18
     }
   ],
   "tasks": [
@@ -51,7 +51,7 @@
     {
       "number": 3,
       "title": "Build the de Montfort LLC landing page",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/3"
     },
     {
