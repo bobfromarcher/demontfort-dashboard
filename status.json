@@ -1,45 +1,21 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T09:32:54Z",
+  "generated": "2026-05-31T09:36:31Z",
   "agents": [
-    {
-      "id": "agent-demontfort-s-1",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-05-31T09:32:35Z",
-      "age_sec": 19
-    },
-    {
-      "id": "agent-demontfort-s-2",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-05-31T09:32:34Z",
-      "age_sec": 19
-    },
-    {
-      "id": "agent-demontfort-s-3",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-05-31T09:32:33Z",
-      "age_sec": 20
-    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T09:32:51Z",
-      "age_sec": 3
+      "ts": "2026-05-31T09:36:31Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
     {
       "number": 5,
       "title": "gradeafoods.com revision",
-      "state": "in-review",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/5"
     },
     {
@@ -51,7 +27,7 @@
     {
       "number": 3,
       "title": "Build the de Montfort LLC landing page",
-      "state": "in-review",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/3"
     },
     {
