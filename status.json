@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T04:17:30Z",
+  "generated": "2026-05-31T04:18:02Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,15 +8,15 @@
       "status": "working",
       "issue": 5,
       "ts": "2026-05-31T04:14:05Z",
-      "age_sec": 205
+      "age_sec": 237
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T04:17:13Z",
-      "age_sec": 17
+      "ts": "2026-05-31T04:17:43Z",
+      "age_sec": 18
     },
     {
       "id": "agent-demontfort-s-3",
@@ -24,7 +24,7 @@
       "status": "offline",
       "issue": 3,
       "ts": "2026-05-31T04:11:14Z",
-      "age_sec": 375
+      "age_sec": 407
     },
     {
       "id": "review-agent",
@@ -32,7 +32,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-05-31T04:17:23Z",
-      "age_sec": 7
+      "age_sec": 39
     }
   ],
   "tasks": [
@@ -45,7 +45,7 @@
     {
       "number": 4,
       "title": "Add CONTRIBUTING.md and issue templates",
-      "state": "in-review",
+      "state": "done",
       "url": "https://github.com/bobfromarcher/demontfort/issues/4"
     },
     {
@@ -57,7 +57,7 @@
     {
       "number": 2,
       "title": "Scaffold a TypeScript + Vite app skeleton",
-      "state": "in-review",
+      "state": "done",
       "url": "https://github.com/bobfromarcher/demontfort/issues/2"
     }
   ],
@@ -65,10 +65,10 @@
     {
       "number": 8,
       "title": "[agent-demontfort-s-2] Add CONTRIBUTING.md and issue templates",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/8",
-      "updated": "2026-05-31T04:15:07Z"
+      "updated": "2026-05-31T04:17:49Z"
     },
     {
       "number": 7,
@@ -96,6 +96,11 @@
     }
   ],
   "commits": [
+    {
+      "sha": "f48d0e9",
+      "msg": "agent-demontfort-s-1: Scaffold a TypeScript + Vite app skeleton (#8)",
+      "date": "2026-05-31T04:17:49Z"
+    },
     {
       "sha": "9380f1f",
       "msg": "Fix VM bootstrap: cloud-init ran 'source' under dash (broke all boots) (#7)",
