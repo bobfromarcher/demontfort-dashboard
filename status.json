@@ -1,14 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-05-31T04:13:45Z",
+  "generated": "2026-05-31T04:14:17Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "working",
-      "issue": 2,
-      "ts": "2026-05-31T04:11:09Z",
-      "age_sec": 155
+      "issue": 5,
+      "ts": "2026-05-31T04:14:05Z",
+      "age_sec": 12
     },
     {
       "id": "agent-demontfort-s-2",
@@ -16,7 +16,7 @@
       "status": "working",
       "issue": 4,
       "ts": "2026-05-31T04:11:19Z",
-      "age_sec": 145
+      "age_sec": 177
     },
     {
       "id": "agent-demontfort-s-3",
@@ -24,22 +24,22 @@
       "status": "working",
       "issue": 3,
       "ts": "2026-05-31T04:11:14Z",
-      "age_sec": 150
+      "age_sec": 182
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-05-31T04:13:19Z",
-      "age_sec": 26
+      "ts": "2026-05-31T04:14:04Z",
+      "age_sec": 13
     }
   ],
   "tasks": [
     {
       "number": 5,
       "title": "gradeafoods.com revision",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/5"
     },
     {
@@ -57,7 +57,7 @@
     {
       "number": 2,
       "title": "Scaffold a TypeScript + Vite app skeleton",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/2"
     }
   ],
