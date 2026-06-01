@@ -1,24 +1,24 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T03:57:42Z",
+  "generated": "2026-06-01T03:58:14Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:57:25Z",
-      "age_sec": 17
+      "status": "working",
+      "issue": 17,
+      "note": "ready=6 (st=200)",
+      "ts": "2026-06-01T03:58:01Z",
+      "age_sec": 12
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:57:34Z",
-      "age_sec": 7
+      "status": "working",
+      "issue": 18,
+      "note": "ready=5 (st=200)",
+      "ts": "2026-06-01T03:58:11Z",
+      "age_sec": 3
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,18 +27,24 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 2
+      "age_sec": 35
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
       "issue": 15,
-      "ts": "2026-06-01T03:57:00Z",
-      "age_sec": 41
+      "ts": "2026-06-01T03:57:46Z",
+      "age_sec": 28
     }
   ],
   "tasks": [
+    {
+      "number": 21,
+      "title": "Reusable billing module (Stripe checkout + subscriptions + webhooks)",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/21"
+    },
     {
       "number": 20,
       "title": "Compliance checklist + privacy/ToS/cookies for gradeafoods launch",
@@ -54,13 +60,13 @@
     {
       "number": 18,
       "title": "Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/18"
     },
     {
       "number": 17,
       "title": "Nightly maintenance agent: deps, tests, cost report, stale-branch cleanup",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/17"
     },
     {
