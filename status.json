@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T08:02:46Z",
+  "generated": "2026-06-01T08:03:19Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 34,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:58Z",
-      "age_sec": 2507
+      "age_sec": 2540
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,16 +18,16 @@
       "issue": 33,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:52Z",
-      "age_sec": 2513
+      "age_sec": 2546
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
-      "status": "offline",
-      "issue": 36,
-      "note": "ready=5 (st=200)",
-      "ts": "2026-06-01T07:43:39Z",
-      "age_sec": 1146
+      "status": "idle",
+      "issue": null,
+      "note": "working #36 on bobfromarcher/tachyontracker",
+      "ts": "2026-06-01T08:03:17Z",
+      "age_sec": 1
     },
     {
       "id": "review-agent",
@@ -35,15 +35,15 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T08:02:31Z",
-      "age_sec": 14
+      "age_sec": 47
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T08:02:05Z",
-      "age_sec": 40
+      "ts": "2026-06-01T08:03:08Z",
+      "age_sec": 10
     }
   ],
   "tasks": [
@@ -92,7 +92,7 @@
     {
       "number": 36,
       "title": "tachyontracker: UI/UX improvements for clarity and conversion",
-      "state": "ready",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/36"
     },
     {
@@ -110,7 +110,7 @@
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
@@ -422,9 +422,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0078,
+    "usd": 0.0157,
     "cap": 5.0,
-    "tokens": 8717,
+    "tokens": 17393,
     "paused": false
   }
 }
