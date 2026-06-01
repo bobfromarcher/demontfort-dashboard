@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T18:39:18Z",
+  "generated": "2026-06-01T18:39:50Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,15 +9,15 @@
       "issue": null,
       "note": "self-healed stale #33",
       "ts": "2026-06-01T18:39:18Z",
-      "age_sec": 0
+      "age_sec": 32
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T18:38:30Z",
-      "age_sec": 47
+      "ts": "2026-06-01T18:39:21Z",
+      "age_sec": 29
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T18:39:13Z",
-      "age_sec": 5
+      "age_sec": 37
     }
   ],
   "tasks": [
@@ -98,7 +98,7 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
@@ -110,7 +110,7 @@
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
