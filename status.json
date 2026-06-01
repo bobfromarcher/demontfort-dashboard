@@ -1,22 +1,49 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:20:36Z",
+  "generated": "2026-06-01T07:21:11Z",
   "agents": [
+    {
+      "id": "agent-demontfort-s-1",
+      "host": "?",
+      "status": "working",
+      "issue": 34,
+      "note": "ready=8 (st=200)",
+      "ts": "2026-06-01T07:20:58Z",
+      "age_sec": 12
+    },
+    {
+      "id": "agent-demontfort-s-2",
+      "host": "?",
+      "status": "working",
+      "issue": 33,
+      "note": "ready=8 (st=200)",
+      "ts": "2026-06-01T07:20:52Z",
+      "age_sec": 18
+    },
+    {
+      "id": "agent-demontfort-s-3",
+      "host": "?",
+      "status": "working",
+      "issue": 16,
+      "note": "ready=8 (st=200)",
+      "ts": "2026-06-01T07:20:46Z",
+      "age_sec": 24
+    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T07:20:36Z",
-      "age_sec": 0
+      "age_sec": 34
     },
     {
       "id": "verify-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T07:20:36Z",
-      "age_sec": 0
+      "status": "verifying",
+      "issue": 2,
+      "ts": "2026-06-01T07:20:57Z",
+      "age_sec": 13
     }
   ],
   "tasks": [
@@ -59,13 +86,13 @@
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
@@ -137,6 +164,54 @@
   ],
   "pull_requests": [
     {
+      "number": 9,
+      "title": "[agent-demontfort-s-1] gradeafoods.com revision",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/9",
+      "updated": "2026-06-01T07:20:56Z"
+    },
+    {
+      "number": 23,
+      "title": "[agent-demontfort-s-1] Research brief: validate the gradeafoods niche food-industry SaaS",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/23",
+      "updated": "2026-06-01T07:20:52Z"
+    },
+    {
+      "number": 24,
+      "title": "[agent-demontfort-s-1] Compliance checklist + privacy/ToS/cookies for gradeafoods launch",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/24",
+      "updated": "2026-06-01T07:20:49Z"
+    },
+    {
+      "number": 27,
+      "title": "[agent-demontfort-s-2] Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/27",
+      "updated": "2026-06-01T07:20:46Z"
+    },
+    {
+      "number": 38,
+      "title": "[agent-demontfort-s-2] Research: confirm the real purpose + current state of all 3 products",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/38",
+      "updated": "2026-06-01T07:20:43Z"
+    },
+    {
+      "number": 40,
+      "title": "[agent-demontfort-s-1] Reusable billing module (Stripe checkout + subscriptions + webhooks)",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/40",
+      "updated": "2026-06-01T07:20:40Z"
+    },
+    {
       "number": 43,
       "title": "Safety foundation: CI gate + verify-agent",
       "state": "closed",
@@ -161,28 +236,12 @@
       "updated": "2026-06-01T07:04:42Z"
     },
     {
-      "number": 40,
-      "title": "[agent-demontfort-s-1] Reusable billing module (Stripe checkout + subscriptions + webhooks)",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/40",
-      "updated": "2026-06-01T06:56:39Z"
-    },
-    {
       "number": 39,
       "title": "Fix cross-repo: use API default_branch for product repos",
       "state": "closed",
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/39",
       "updated": "2026-06-01T06:39:53Z"
-    },
-    {
-      "number": 38,
-      "title": "[agent-demontfort-s-2] Research: confirm the real purpose + current state of all 3 products",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/38",
-      "updated": "2026-06-01T05:18:15Z"
     },
     {
       "number": 31,
@@ -225,14 +284,6 @@
       "updated": "2026-06-01T04:40:46Z"
     },
     {
-      "number": 27,
-      "title": "[agent-demontfort-s-2] Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/27",
-      "updated": "2026-06-01T04:15:43Z"
-    },
-    {
       "number": 26,
       "title": "docs: sanitized vault template",
       "state": "closed",
@@ -247,22 +298,6 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/25",
       "updated": "2026-06-01T04:10:55Z"
-    },
-    {
-      "number": 24,
-      "title": "[agent-demontfort-s-1] Compliance checklist + privacy/ToS/cookies for gradeafoods launch",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/24",
-      "updated": "2026-06-01T04:04:40Z"
-    },
-    {
-      "number": 23,
-      "title": "[agent-demontfort-s-1] Research brief: validate the gradeafoods niche food-industry SaaS",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/23",
-      "updated": "2026-06-01T04:01:20Z"
     },
     {
       "number": 22,
@@ -287,14 +322,6 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/13",
       "updated": "2026-05-31T17:24:48Z"
-    },
-    {
-      "number": 12,
-      "title": "Harden swarm agent: dedupe + guard + self-report idle reason",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/12",
-      "updated": "2026-05-31T17:22:39Z"
     }
   ],
   "commits": [
