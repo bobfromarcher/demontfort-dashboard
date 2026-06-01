@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T05:32:22Z",
+  "generated": "2026-06-01T05:32:55Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "offline",
-      "issue": 5,
-      "note": "ready=9 (st=200)",
-      "ts": "2026-06-01T05:14:58Z",
-      "age_sec": 1044
+      "status": "idle",
+      "issue": null,
+      "note": "working #5 on bobfromarcher/demontfort",
+      "ts": "2026-06-01T05:32:49Z",
+      "age_sec": 5
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 33,
       "note": "ready=6 (st=200)",
       "ts": "2026-06-01T05:17:28Z",
-      "age_sec": 894
+      "age_sec": 926
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=9 (st=200)",
       "ts": "2026-06-01T05:15:04Z",
-      "age_sec": 1038
+      "age_sec": 1071
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T05:31:49Z",
-      "age_sec": 33
+      "ts": "2026-06-01T05:32:37Z",
+      "age_sec": 17
     }
   ],
   "tasks": [
@@ -60,7 +60,7 @@
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
@@ -114,7 +114,7 @@
     {
       "number": 5,
       "title": "gradeafoods.com revision",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/5"
     },
     {
@@ -378,9 +378,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0078,
+    "usd": 0.0157,
     "cap": 5.0,
-    "tokens": 8700,
+    "tokens": 17420,
     "paused": false
   }
 }
