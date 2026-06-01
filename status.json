@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T20:27:08Z",
+  "generated": "2026-06-01T20:27:40Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T20:27:03Z",
-      "age_sec": 5
+      "note": "self-healed stale #33",
+      "ts": "2026-06-01T20:27:38Z",
+      "age_sec": 2
     },
     {
       "id": "review-agent",
@@ -17,7 +17,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T20:27:07Z",
-      "age_sec": 0
+      "age_sec": 32
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T20:26:49Z",
-      "age_sec": 18
+      "age_sec": 50
     }
   ],
   "tasks": [
@@ -98,7 +98,7 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
