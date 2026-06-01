@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T03:57:10Z",
+  "generated": "2026-06-01T03:57:42Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:56:54Z",
-      "age_sec": 15
+      "ts": "2026-06-01T03:57:25Z",
+      "age_sec": 17
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,17 +17,17 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:57:04Z",
-      "age_sec": 6
+      "ts": "2026-06-01T03:57:34Z",
+      "age_sec": 7
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:57:02Z",
-      "age_sec": 7
+      "status": "working",
+      "issue": 16,
+      "note": "ready=2 (st=200)",
+      "ts": "2026-06-01T03:57:39Z",
+      "age_sec": 2
     },
     {
       "id": "review-agent",
@@ -35,10 +35,40 @@
       "status": "reviewing",
       "issue": 15,
       "ts": "2026-06-01T03:57:00Z",
-      "age_sec": 10
+      "age_sec": 41
     }
   ],
   "tasks": [
+    {
+      "number": 20,
+      "title": "Compliance checklist + privacy/ToS/cookies for gradeafoods launch",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/20"
+    },
+    {
+      "number": 19,
+      "title": "Research brief: validate the gradeafoods niche food-industry SaaS",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/19"
+    },
+    {
+      "number": 18,
+      "title": "Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/18"
+    },
+    {
+      "number": 17,
+      "title": "Nightly maintenance agent: deps, tests, cost report, stale-branch cleanup",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/17"
+    },
+    {
+      "number": 16,
+      "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
+      "state": "claimed",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/16"
+    },
     {
       "number": 5,
       "title": "gradeafoods.com revision",
