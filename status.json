@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:48:51Z",
+  "generated": "2026-06-01T06:49:26Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "self-healed stale #16",
-      "ts": "2026-06-01T06:48:22Z",
-      "age_sec": 29
+      "status": "working",
+      "issue": 21,
+      "note": "ready=4 (st=200)",
+      "ts": "2026-06-01T06:49:10Z",
+      "age_sec": 15
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,24 +18,24 @@
       "issue": 37,
       "note": "ready=3 (st=200)",
       "ts": "2026-06-01T06:48:28Z",
-      "age_sec": 23
+      "age_sec": 58
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "self-healed stale #16",
-      "ts": "2026-06-01T06:48:22Z",
-      "age_sec": 29
+      "status": "working",
+      "issue": 16,
+      "note": "ready=4 (st=200)",
+      "ts": "2026-06-01T06:49:05Z",
+      "age_sec": 21
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T06:48:17Z",
-      "age_sec": 33
+      "ts": "2026-06-01T06:49:06Z",
+      "age_sec": 19
     }
   ],
   "tasks": [
@@ -78,7 +78,7 @@
     {
       "number": 21,
       "title": "Reusable billing module (Stripe checkout + subscriptions + webhooks)",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/21"
     },
     {
@@ -108,7 +108,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
