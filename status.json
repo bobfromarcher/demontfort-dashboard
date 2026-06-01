@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:44:17Z",
+  "generated": "2026-06-01T07:44:50Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 34,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:58Z",
-      "age_sec": 1399
+      "age_sec": 1432
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 33,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:52Z",
-      "age_sec": 1405
+      "age_sec": 1438
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,7 +27,7 @@
       "issue": 36,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T07:43:39Z",
-      "age_sec": 38
+      "age_sec": 71
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "reviewing",
       "issue": 47,
       "ts": "2026-06-01T07:44:17Z",
-      "age_sec": 0
+      "age_sec": 33
     },
     {
       "id": "verify-agent",
@@ -43,7 +43,7 @@
       "status": "verifying",
       "issue": 47,
       "ts": "2026-06-01T07:44:10Z",
-      "age_sec": 7
+      "age_sec": 40
     }
   ],
   "tasks": [
@@ -169,7 +169,15 @@
       "state": "open",
       "merged": false,
       "url": "https://github.com/bobfromarcher/demontfort/pull/47",
-      "updated": "2026-06-01T07:44:12Z"
+      "updated": "2026-06-01T07:44:36Z"
+    },
+    {
+      "number": 43,
+      "title": "Safety foundation: CI gate + verify-agent",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/43",
+      "updated": "2026-06-01T07:44:21Z"
     },
     {
       "number": 9,
@@ -218,14 +226,6 @@
       "merged": false,
       "url": "https://github.com/bobfromarcher/demontfort/pull/40",
       "updated": "2026-06-01T07:20:40Z"
-    },
-    {
-      "number": 43,
-      "title": "Safety foundation: CI gate + verify-agent",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/43",
-      "updated": "2026-06-01T07:14:09Z"
     },
     {
       "number": 42,
