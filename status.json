@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:55:41Z",
+  "generated": "2026-06-01T06:56:14Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "offline",
-      "issue": 21,
-      "note": "ready=4 (st=200)",
-      "ts": "2026-06-01T06:49:10Z",
-      "age_sec": 390
+      "status": "idle",
+      "issue": null,
+      "note": "working #21 on bobfromarcher/demontfort",
+      "ts": "2026-06-01T06:55:57Z",
+      "age_sec": 16
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 37,
       "note": "ready=3 (st=200)",
       "ts": "2026-06-01T06:48:28Z",
-      "age_sec": 432
+      "age_sec": 465
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,7 +27,7 @@
       "issue": 16,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 395
+      "age_sec": 428
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T06:55:33Z",
-      "age_sec": 8
+      "age_sec": 41
     }
   ],
   "tasks": [
@@ -78,7 +78,7 @@
     {
       "number": 21,
       "title": "Reusable billing module (Stripe checkout + subscriptions + webhooks)",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/21"
     },
     {
@@ -137,6 +137,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 40,
+      "title": "[agent-demontfort-s-1] Reusable billing module (Stripe checkout + subscriptions + webhooks)",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/40",
+      "updated": "2026-06-01T06:55:55Z"
+    },
     {
       "number": 39,
       "title": "Fix cross-repo: use API default_branch for product repos",
@@ -288,14 +296,6 @@
       "merged": false,
       "url": "https://github.com/bobfromarcher/demontfort/pull/9",
       "updated": "2026-05-31T04:35:34Z"
-    },
-    {
-      "number": 8,
-      "title": "[agent-demontfort-s-2] Add CONTRIBUTING.md and issue templates",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/8",
-      "updated": "2026-05-31T04:18:21Z"
     }
   ],
   "commits": [
@@ -378,9 +378,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0,
+    "usd": 0.0078,
     "cap": 5.0,
-    "tokens": 0,
+    "tokens": 8712,
     "paused": false
   }
 }
