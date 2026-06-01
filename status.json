@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T05:07:13Z",
+  "generated": "2026-06-01T05:07:45Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T05:07:07Z",
-      "age_sec": 5
+      "ts": "2026-06-01T05:07:37Z",
+      "age_sec": 7
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,8 +17,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T05:06:48Z",
-      "age_sec": 24
+      "ts": "2026-06-01T05:07:19Z",
+      "age_sec": 25
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,16 +26,16 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T05:06:53Z",
-      "age_sec": 19
+      "ts": "2026-06-01T05:07:23Z",
+      "age_sec": 21
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T05:06:42Z",
-      "age_sec": 30
+      "ts": "2026-06-01T05:07:28Z",
+      "age_sec": 16
     }
   ],
   "tasks": [
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 31,
+      "title": "Cross-repo: agents build & review the product repos",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/31",
+      "updated": "2026-06-01T05:07:18Z"
+    },
     {
       "number": 30,
       "title": "Cross-repo: agents build & review the product repos",
@@ -252,17 +260,14 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/6",
       "updated": "2026-05-31T03:54:30Z"
-    },
-    {
-      "number": 1,
-      "title": "Coordinated agent swarm + live control dashboard",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/1",
-      "updated": "2026-05-31T03:48:48Z"
     }
   ],
   "commits": [
+    {
+      "sha": "eafc187",
+      "msg": "Cross-repo: agents build & review the product repos, not just the hub (#31)",
+      "date": "2026-06-01T05:07:16Z"
+    },
     {
       "sha": "26868a1",
       "msg": "Cross-repo: agents build & review the product repos, not just the hub (#30)",
@@ -332,11 +337,6 @@
       "sha": "fe194ff",
       "msg": "Lean VM boot: make OpenHands + Docker opt-in (fix 1GB droplet stall)",
       "date": "2026-05-31T03:56:23Z"
-    },
-    {
-      "sha": "916f6ef",
-      "msg": "Add automated review agent (auto-merge safe PRs, escalate risky) (#6)",
-      "date": "2026-05-31T03:54:28Z"
     }
   ],
   "platform": {}
