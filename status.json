@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:04:05Z",
+  "generated": "2026-06-01T07:04:39Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,15 +9,15 @@
       "issue": 34,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:58:31Z",
-      "age_sec": 334
+      "age_sec": 368
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T07:03:38Z",
+      "note": "self-healed stale #16",
+      "ts": "2026-06-01T07:04:12Z",
       "age_sec": 27
     },
     {
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 900
+      "age_sec": 933
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T07:03:20Z",
-      "age_sec": 45
+      "ts": "2026-06-01T07:04:09Z",
+      "age_sec": 29
     }
   ],
   "tasks": [
@@ -108,7 +108,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
@@ -137,6 +137,22 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 42,
+      "title": "Rock-solid: auto-restart, watchdog, 4GB swap, 2 workers",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/42",
+      "updated": "2026-06-01T07:04:35Z"
+    },
+    {
+      "number": 41,
+      "title": "Rock-solid: auto-restart agents + watchdog",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/41",
+      "updated": "2026-06-01T07:04:32Z"
+    },
     {
       "number": 40,
       "title": "[agent-demontfort-s-1] Reusable billing module (Stripe checkout + subscriptions + webhooks)",
@@ -280,25 +296,19 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/11",
       "updated": "2026-05-31T09:42:34Z"
-    },
-    {
-      "number": 10,
-      "title": "Self-sufficient secrets: vault + auto-sync (provide each secret once, ever)",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/10",
-      "updated": "2026-05-31T09:24:04Z"
-    },
-    {
-      "number": 9,
-      "title": "[agent-demontfort-s-1] gradeafoods.com revision",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/9",
-      "updated": "2026-05-31T04:35:34Z"
     }
   ],
   "commits": [
+    {
+      "sha": "a98f596",
+      "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#42)",
+      "date": "2026-06-01T07:04:39Z"
+    },
+    {
+      "sha": "1074b68",
+      "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#41)",
+      "date": "2026-06-01T07:04:24Z"
+    },
     {
       "sha": "d0d8cad",
       "msg": "Fix cross-repo: use API default_branch (product repos default to devin/* not main) (#39)",
@@ -363,16 +373,6 @@
       "sha": "9a06292",
       "msg": "Self-sufficient secrets: vault + auto-sync across all agents (#10)",
       "date": "2026-05-31T09:24:02Z"
-    },
-    {
-      "sha": "f48d0e9",
-      "msg": "agent-demontfort-s-1: Scaffold a TypeScript + Vite app skeleton (#8)",
-      "date": "2026-05-31T04:17:49Z"
-    },
-    {
-      "sha": "9380f1f",
-      "msg": "Fix VM bootstrap: cloud-init ran 'source' under dash (broke all boots) (#7)",
-      "date": "2026-05-31T04:06:15Z"
     }
   ],
   "platform": {},
