@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:27:49Z",
+  "generated": "2026-06-01T10:28:21Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,16 +8,16 @@
       "status": "idle",
       "issue": null,
       "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T10:27:45Z",
-      "age_sec": 4
+      "ts": "2026-06-01T10:28:15Z",
+      "age_sec": 6
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:27:00Z",
-      "age_sec": 48
+      "ts": "2026-06-01T10:27:51Z",
+      "age_sec": 30
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T10:27:36Z",
-      "age_sec": 12
+      "age_sec": 44
     }
   ],
   "tasks": [
@@ -182,6 +182,14 @@
   ],
   "pull_requests": [
     {
+      "number": 55,
+      "title": "Ship-product playbook + deploy verify lessons",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/55",
+      "updated": "2026-06-01T10:28:20Z"
+    },
+    {
       "number": 51,
       "title": "Deploy automation: Vercel deploy-on-merge",
       "state": "closed",
@@ -332,14 +340,6 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/25",
       "updated": "2026-06-01T04:10:55Z"
-    },
-    {
-      "number": 22,
-      "title": "Charter + recursive memory + charter-aware agents (autonomous company)",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/22",
-      "updated": "2026-06-01T03:58:35Z"
     }
   ],
   "commits": [
