@@ -1,24 +1,24 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:57:51Z",
+  "generated": "2026-06-01T06:58:30Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "note": "self-healed stale #32",
-      "ts": "2026-06-01T06:57:38Z",
-      "age_sec": 13
+      "note": "ready=3 (st=200)",
+      "ts": "2026-06-01T06:58:24Z",
+      "age_sec": 5
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T06:57:28Z",
-      "age_sec": 22
+      "status": "working",
+      "issue": 32,
+      "note": "ready=5 (st=200)",
+      "ts": "2026-06-01T06:58:05Z",
+      "age_sec": 25
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 526
+      "age_sec": 565
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "reviewing",
-      "issue": 2,
-      "ts": "2026-06-01T06:57:29Z",
-      "age_sec": 21
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-06-01T06:58:29Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
@@ -60,7 +60,7 @@
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
@@ -72,7 +72,7 @@
     {
       "number": 32,
       "title": "Research: confirm the real purpose + current state of all 3 products",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/32"
     },
     {
