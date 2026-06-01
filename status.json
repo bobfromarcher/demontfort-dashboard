@@ -1,31 +1,31 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:01:14Z",
+  "generated": "2026-06-01T10:01:47Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "offline",
-      "issue": 34,
-      "note": "ready=6 (st=200)",
-      "ts": "2026-06-01T09:49:57Z",
-      "age_sec": 676
+      "status": "idle",
+      "issue": null,
+      "note": "working #34 on bobfromarcher/coivalidator",
+      "ts": "2026-06-01T10:01:46Z",
+      "age_sec": 1
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:00:48Z",
-      "age_sec": 26
+      "ts": "2026-06-01T10:01:37Z",
+      "age_sec": 9
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:00:26Z",
-      "age_sec": 47
+      "ts": "2026-06-01T10:01:31Z",
+      "age_sec": 16
     }
   ],
   "tasks": [
@@ -92,13 +92,13 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
@@ -416,9 +416,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0391,
+    "usd": 0.0469,
     "cap": 50.0,
-    "tokens": 43473,
+    "tokens": 52156,
     "paused": false
   }
 }
