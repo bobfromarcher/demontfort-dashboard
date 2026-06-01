@@ -1,41 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:40:58Z",
+  "generated": "2026-06-01T06:48:17Z",
   "agents": [
-    {
-      "id": "agent-demontfort-s-1",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:40:48Z",
-      "age_sec": 9
-    },
-    {
-      "id": "agent-demontfort-s-2",
-      "host": "?",
-      "status": "working",
-      "issue": 32,
-      "note": "ready=6 (st=200)",
-      "ts": "2026-06-01T06:40:55Z",
-      "age_sec": 3
-    },
-    {
-      "id": "agent-demontfort-s-3",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:40:49Z",
-      "age_sec": 9
-    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T06:40:41Z",
-      "age_sec": 16
+      "ts": "2026-06-01T06:48:17Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
@@ -48,19 +21,19 @@
     {
       "number": 36,
       "title": "tachyontracker: UI/UX improvements for clarity and conversion",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/36"
     },
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
@@ -72,7 +45,7 @@
     {
       "number": 32,
       "title": "Research: confirm the real purpose + current state of all 3 products",
-      "state": "in-review",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/32"
     },
     {
@@ -378,9 +351,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0235,
+    "usd": 0.0,
     "cap": 5.0,
-    "tokens": 26132,
+    "tokens": 0,
     "paused": false
   }
 }
