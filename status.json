@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T08:18:19Z",
+  "generated": "2026-06-01T08:18:51Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "working",
-      "issue": 44,
-      "note": "ready=9 (st=200)",
-      "ts": "2026-06-01T08:15:44Z",
-      "age_sec": 154
+      "issue": 45,
+      "note": "ready=8 (st=200)",
+      "ts": "2026-06-01T08:18:36Z",
+      "age_sec": 15
     },
     {
       "id": "review-agent",
@@ -17,15 +17,15 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T08:18:05Z",
-      "age_sec": 13
+      "age_sec": 46
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T08:17:44Z",
-      "age_sec": 35
+      "ts": "2026-06-01T08:18:47Z",
+      "age_sec": 4
     }
   ],
   "tasks": [
@@ -56,13 +56,13 @@
     {
       "number": 45,
       "title": "tachyontracker: add CI workflow",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/45"
     },
     {
       "number": 44,
       "title": "coivalidator: add CI workflow (.github/workflows/ci.yml)",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/44"
     },
     {
@@ -404,9 +404,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0,
+    "usd": 0.0078,
     "cap": 50.0,
-    "tokens": 0,
+    "tokens": 8704,
     "paused": false
   }
 }
