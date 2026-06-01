@@ -1,44 +1,53 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T05:07:45Z",
+  "generated": "2026-06-01T05:14:46Z",
   "agents": [
-    {
-      "id": "agent-demontfort-s-1",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T05:07:37Z",
-      "age_sec": 7
-    },
-    {
-      "id": "agent-demontfort-s-2",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T05:07:19Z",
-      "age_sec": 25
-    },
-    {
-      "id": "agent-demontfort-s-3",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T05:07:23Z",
-      "age_sec": 21
-    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T05:07:28Z",
-      "age_sec": 16
+      "ts": "2026-06-01T05:14:46Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
+    {
+      "number": 37,
+      "title": "gradeafoods: build the validated v1 thin slice",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/37"
+    },
+    {
+      "number": 36,
+      "title": "tachyontracker: UI/UX improvements for clarity and conversion",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/36"
+    },
+    {
+      "number": 35,
+      "title": "tachyontracker: correct site info and clarify the product",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/35"
+    },
+    {
+      "number": 34,
+      "title": "coivalidator: UI/UX pass on landing + core flow",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/34"
+    },
+    {
+      "number": 33,
+      "title": "coivalidator: audit site, fix incorrect info & tighten copy",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/33"
+    },
+    {
+      "number": 32,
+      "title": "Research: confirm the real purpose + current state of all 3 products",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/32"
+    },
     {
       "number": 21,
       "title": "Reusable billing module (Stripe checkout + subscriptions + webhooks)",
@@ -339,5 +348,12 @@
       "date": "2026-05-31T03:56:23Z"
     }
   ],
-  "platform": {}
+  "platform": {},
+  "spend": {
+    "day": "2026-06-01",
+    "usd": 0.0,
+    "cap": 5.0,
+    "tokens": 0,
+    "paused": false
+  }
 }
