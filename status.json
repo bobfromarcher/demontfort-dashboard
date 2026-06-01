@@ -1,49 +1,22 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T08:10:43Z",
+  "generated": "2026-06-01T08:15:36Z",
   "agents": [
-    {
-      "id": "agent-demontfort-s-1",
-      "host": "?",
-      "status": "offline",
-      "issue": 34,
-      "note": "ready=8 (st=200)",
-      "ts": "2026-06-01T07:20:58Z",
-      "age_sec": 2984
-    },
-    {
-      "id": "agent-demontfort-s-2",
-      "host": "?",
-      "status": "offline",
-      "issue": 33,
-      "note": "ready=8 (st=200)",
-      "ts": "2026-06-01T07:20:52Z",
-      "age_sec": 2990
-    },
-    {
-      "id": "agent-demontfort-s-3",
-      "host": "?",
-      "status": "offline",
-      "issue": 36,
-      "note": "ready=10 (st=200)",
-      "ts": "2026-06-01T08:03:42Z",
-      "age_sec": 420
-    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T08:09:56Z",
-      "age_sec": 46
+      "ts": "2026-06-01T08:15:36Z",
+      "age_sec": 0
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T08:10:00Z",
-      "age_sec": 43
+      "ts": "2026-06-01T08:15:36Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
@@ -422,9 +395,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0157,
-    "cap": 5.0,
-    "tokens": 17393,
+    "usd": 0.0,
+    "cap": 50.0,
+    "tokens": 0,
     "paused": false
   }
 }
