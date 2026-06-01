@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:00:43Z",
+  "generated": "2026-06-01T07:01:16Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,16 +9,16 @@
       "issue": 34,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:58:31Z",
-      "age_sec": 132
+      "age_sec": 165
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "working",
-      "issue": 32,
-      "note": "ready=5 (st=200)",
-      "ts": "2026-06-01T06:58:05Z",
-      "age_sec": 158
+      "status": "idle",
+      "issue": null,
+      "note": "working #32 on bobfromarcher/demontfort",
+      "ts": "2026-06-01T07:01:06Z",
+      "age_sec": 10
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 698
+      "age_sec": 731
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T07:00:06Z",
-      "age_sec": 37
+      "ts": "2026-06-01T07:00:54Z",
+      "age_sec": 22
     }
   ],
   "tasks": [
@@ -72,7 +72,7 @@
     {
       "number": 32,
       "title": "Research: confirm the real purpose + current state of all 3 products",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/32"
     },
     {
@@ -378,9 +378,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0157,
+    "usd": 0.0235,
     "cap": 5.0,
-    "tokens": 17408,
+    "tokens": 26108,
     "paused": false
   }
 }
