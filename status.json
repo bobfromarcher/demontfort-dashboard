@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:47:09Z",
+  "generated": "2026-06-01T10:47:41Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,16 +8,16 @@
       "status": "idle",
       "issue": null,
       "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T10:46:44Z",
-      "age_sec": 24
+      "ts": "2026-06-01T10:47:15Z",
+      "age_sec": 26
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:46:25Z",
-      "age_sec": 44
+      "ts": "2026-06-01T10:47:15Z",
+      "age_sec": 26
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T10:47:05Z",
-      "age_sec": 4
+      "age_sec": 36
     }
   ],
   "tasks": [
@@ -344,6 +344,11 @@
   ],
   "commits": [
     {
+      "sha": "2870641",
+      "msg": "Fix deploy.yml: native vercel deploy (drop --prebuilt that served 404)",
+      "date": "2026-06-01T10:47:29Z"
+    },
+    {
       "sha": "321164e",
       "msg": "Add ship-product playbook (live+payable motion w/ verify checks)",
       "date": "2026-06-01T10:28:22Z"
@@ -412,11 +417,6 @@
       "sha": "c58b163",
       "msg": "CRITICAL: fix NameError that crashed every worker agent (#14)",
       "date": "2026-05-31T17:27:26Z"
-    },
-    {
-      "sha": "6743e87",
-      "msg": "Operator experience: dm CLI + runbook + product backlog (#13)",
-      "date": "2026-05-31T17:24:46Z"
     }
   ],
   "platform": {},
