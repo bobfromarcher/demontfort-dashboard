@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:01:47Z",
+  "generated": "2026-06-01T10:02:20Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "working #34 on bobfromarcher/coivalidator",
-      "ts": "2026-06-01T10:01:46Z",
-      "age_sec": 1
+      "status": "working",
+      "issue": 50,
+      "note": "ready=5 (st=200)",
+      "ts": "2026-06-01T10:02:00Z",
+      "age_sec": 20
     },
     {
       "id": "review-agent",
@@ -17,7 +17,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T10:01:37Z",
-      "age_sec": 9
+      "age_sec": 42
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T10:01:31Z",
-      "age_sec": 16
+      "age_sec": 49
     }
   ],
   "tasks": [
@@ -44,7 +44,7 @@
     {
       "number": 50,
       "title": "gradeafoods: extend v1 grading tool + polish UI/UX",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/50"
     },
     {
