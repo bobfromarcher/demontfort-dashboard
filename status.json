@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T09:49:21Z",
+  "generated": "2026-06-01T09:49:53Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "offline",
-      "issue": 49,
-      "note": "ready=5 (st=200)",
-      "ts": "2026-06-01T09:04:12Z",
-      "age_sec": 2708
+      "status": "idle",
+      "issue": null,
+      "note": "self-healed stale #33",
+      "ts": "2026-06-01T09:49:44Z",
+      "age_sec": 9
     },
     {
       "id": "review-agent",
@@ -17,15 +17,15 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T09:49:07Z",
-      "age_sec": 13
+      "age_sec": 45
     },
     {
       "id": "verify-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T09:48:32Z",
-      "age_sec": 49
+      "status": "verifying",
+      "issue": 5,
+      "ts": "2026-06-01T09:49:39Z",
+      "age_sec": 14
     }
   ],
   "tasks": [
@@ -50,7 +50,7 @@
     {
       "number": 49,
       "title": "tachyontracker: build out core tracking feature + functional UI",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/49"
     },
     {
@@ -92,7 +92,7 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
@@ -416,9 +416,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0313,
+    "usd": 0.0391,
     "cap": 50.0,
-    "tokens": 34756,
+    "tokens": 43473,
     "paused": false
   }
 }
