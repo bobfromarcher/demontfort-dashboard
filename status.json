@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:40:32Z",
+  "generated": "2026-06-01T04:41:04Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T04:40:19Z",
-      "age_sec": 13
+      "ts": "2026-06-01T04:40:49Z",
+      "age_sec": 14
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,8 +17,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T04:40:31Z",
-      "age_sec": 1
+      "ts": "2026-06-01T04:41:01Z",
+      "age_sec": 3
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,8 +26,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T04:40:05Z",
-      "age_sec": 27
+      "ts": "2026-06-01T04:40:35Z",
+      "age_sec": 28
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "reviewing",
       "issue": 15,
       "ts": "2026-06-01T04:40:29Z",
-      "age_sec": 2
+      "age_sec": 34
     }
   ],
   "tasks": [
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 28,
+      "title": "Local cockpit: OpenHands + browser IDE on your own computer ($0)",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/28",
+      "updated": "2026-06-01T04:40:46Z"
+    },
     {
       "number": 27,
       "title": "[agent-demontfort-s-2] Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
@@ -240,6 +248,11 @@
   ],
   "commits": [
     {
+      "sha": "99711f9",
+      "msg": "Local cockpit: run OpenHands + browser IDE on your own computer ($0) (#28)",
+      "date": "2026-06-01T04:40:44Z"
+    },
+    {
       "sha": "f973c25",
       "msg": "docs: add sanitized vault template (placeholders only) (#26)",
       "date": "2026-06-01T04:11:38Z"
@@ -308,11 +321,6 @@
       "sha": "64e24b1",
       "msg": "Add coordinated swarm + live control dashboard",
       "date": "2026-05-31T03:20:22Z"
-    },
-    {
-      "sha": "ae36f03",
-      "msg": "Restructure: swarm scaffold at repo root so GitHub Actions is active",
-      "date": "2026-05-31T01:58:56Z"
     }
   ],
   "platform": {}
