@@ -1,40 +1,40 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:28:27Z",
+  "generated": "2026-06-01T06:29:04Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "working",
-      "issue": 21,
+      "issue": 34,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T06:27:46Z",
-      "age_sec": 40
+      "ts": "2026-06-01T06:28:39Z",
+      "age_sec": 24
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
       "status": "working",
-      "issue": 37,
+      "issue": 35,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T06:27:57Z",
-      "age_sec": 29
+      "ts": "2026-06-01T06:28:45Z",
+      "age_sec": 19
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
       "status": "working",
-      "issue": 36,
+      "issue": 16,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T06:27:51Z",
-      "age_sec": 35
+      "ts": "2026-06-01T06:28:34Z",
+      "age_sec": 29
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T06:28:26Z",
+      "ts": "2026-06-01T06:29:04Z",
       "age_sec": 0
     }
   ],
@@ -54,13 +54,13 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
@@ -108,7 +108,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
