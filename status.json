@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:39:19Z",
+  "generated": "2026-06-01T06:39:51Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:39:17Z",
-      "age_sec": 1
+      "ts": "2026-06-01T06:39:47Z",
+      "age_sec": 3
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,8 +17,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:39:17Z",
-      "age_sec": 1
+      "ts": "2026-06-01T06:39:48Z",
+      "age_sec": 3
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,8 +26,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:39:17Z",
-      "age_sec": 1
+      "ts": "2026-06-01T06:39:48Z",
+      "age_sec": 3
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T06:39:05Z",
-      "age_sec": 13
+      "age_sec": 45
     }
   ],
   "tasks": [
@@ -137,6 +137,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 39,
+      "title": "Fix cross-repo: use API default_branch for product repos",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/39",
+      "updated": "2026-06-01T06:39:49Z"
+    },
     {
       "number": 38,
       "title": "[agent-demontfort-s-2] Research: confirm the real purpose + current state of all 3 products",
@@ -288,17 +296,14 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/8",
       "updated": "2026-05-31T04:18:21Z"
-    },
-    {
-      "number": 7,
-      "title": "Fix VM bootstrap: cloud-init 'source' bug that broke every boot",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/7",
-      "updated": "2026-05-31T04:06:17Z"
     }
   ],
   "commits": [
+    {
+      "sha": "d0d8cad",
+      "msg": "Fix cross-repo: use API default_branch (product repos default to devin/* not main) (#39)",
+      "date": "2026-06-01T06:39:51Z"
+    },
     {
       "sha": "eafc187",
       "msg": "Cross-repo: agents build & review the product repos, not just the hub (#31)",
@@ -368,11 +373,6 @@
       "sha": "9380f1f",
       "msg": "Fix VM bootstrap: cloud-init ran 'source' under dash (broke all boots) (#7)",
       "date": "2026-05-31T04:06:15Z"
-    },
-    {
-      "sha": "fe194ff",
-      "msg": "Lean VM boot: make OpenHands + Docker opt-in (fix 1GB droplet stall)",
-      "date": "2026-05-31T03:56:23Z"
     }
   ],
   "platform": {},
