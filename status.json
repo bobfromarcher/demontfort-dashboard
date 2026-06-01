@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T05:17:02Z",
+  "generated": "2026-06-01T05:17:36Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,16 +9,16 @@
       "issue": 5,
       "note": "ready=9 (st=200)",
       "ts": "2026-06-01T05:14:58Z",
-      "age_sec": 124
+      "age_sec": 157
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
       "status": "working",
-      "issue": 32,
-      "note": "ready=9 (st=200)",
-      "ts": "2026-06-01T05:15:15Z",
-      "age_sec": 107
+      "issue": 33,
+      "note": "ready=6 (st=200)",
+      "ts": "2026-06-01T05:17:28Z",
+      "age_sec": 7
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=9 (st=200)",
       "ts": "2026-06-01T05:15:04Z",
-      "age_sec": 118
+      "age_sec": 152
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T05:16:23Z",
-      "age_sec": 39
+      "ts": "2026-06-01T05:17:12Z",
+      "age_sec": 24
     }
   ],
   "tasks": [
@@ -66,13 +66,13 @@
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
       "number": 32,
       "title": "Research: confirm the real purpose + current state of all 3 products",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/32"
     },
     {
@@ -137,6 +137,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 38,
+      "title": "[agent-demontfort-s-2] Research: confirm the real purpose + current state of all 3 products",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/38",
+      "updated": "2026-06-01T05:17:20Z"
+    },
     {
       "number": 31,
       "title": "Cross-repo: agents build & review the product repos",
@@ -288,14 +296,6 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/7",
       "updated": "2026-05-31T04:06:17Z"
-    },
-    {
-      "number": 6,
-      "title": "Automated review agent: auto-merge safe PRs, escalate risky ones",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/6",
-      "updated": "2026-05-31T03:54:30Z"
     }
   ],
   "commits": [
@@ -378,9 +378,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0,
+    "usd": 0.0078,
     "cap": 5.0,
-    "tokens": 0,
+    "tokens": 8700,
     "paused": false
   }
 }
