@@ -1,14 +1,23 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T08:15:36Z",
+  "generated": "2026-06-01T08:16:09Z",
   "agents": [
+    {
+      "id": "agent-demontfort-s-1",
+      "host": "?",
+      "status": "working",
+      "issue": 44,
+      "note": "ready=9 (st=200)",
+      "ts": "2026-06-01T08:15:44Z",
+      "age_sec": 25
+    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T08:15:36Z",
-      "age_sec": 0
+      "age_sec": 33
     },
     {
       "id": "verify-agent",
@@ -16,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T08:15:36Z",
-      "age_sec": 0
+      "age_sec": 32
     }
   ],
   "tasks": [
@@ -53,7 +62,7 @@
     {
       "number": 44,
       "title": "coivalidator: add CI workflow (.github/workflows/ci.yml)",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/44"
     },
     {
