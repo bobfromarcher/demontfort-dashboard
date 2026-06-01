@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:40:25Z",
+  "generated": "2026-06-01T06:40:58Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,17 +8,17 @@
       "status": "idle",
       "issue": null,
       "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:40:18Z",
-      "age_sec": 7
+      "ts": "2026-06-01T06:40:48Z",
+      "age_sec": 9
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:40:18Z",
-      "age_sec": 7
+      "status": "working",
+      "issue": 32,
+      "note": "ready=6 (st=200)",
+      "ts": "2026-06-01T06:40:55Z",
+      "age_sec": 3
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,29 +26,29 @@
       "status": "idle",
       "issue": null,
       "note": "ready=0 (st=200)",
-      "ts": "2026-06-01T06:40:18Z",
-      "age_sec": 7
+      "ts": "2026-06-01T06:40:49Z",
+      "age_sec": 9
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T06:39:53Z",
-      "age_sec": 32
+      "ts": "2026-06-01T06:40:41Z",
+      "age_sec": 16
     }
   ],
   "tasks": [
     {
       "number": 37,
       "title": "gradeafoods: build the validated v1 thin slice",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/37"
     },
     {
       "number": 36,
       "title": "tachyontracker: UI/UX improvements for clarity and conversion",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/36"
     },
     {
@@ -66,7 +66,7 @@
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "in-review",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
