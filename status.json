@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:11:26Z",
+  "generated": "2026-06-01T04:11:59Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 21,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T04:04:02Z",
-      "age_sec": 443
+      "age_sec": 476
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 18,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T03:58:11Z",
-      "age_sec": 794
+      "age_sec": 827
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 826
+      "age_sec": 859
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
       "issue": 15,
-      "ts": "2026-06-01T04:10:51Z",
-      "age_sec": 34
+      "ts": "2026-06-01T04:11:38Z",
+      "age_sec": 20
     }
   ],
   "tasks": [
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 26,
+      "title": "docs: sanitized vault template",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/26",
+      "updated": "2026-06-01T04:11:41Z"
+    },
     {
       "number": 25,
       "title": "Tier-1: spend governor + self-heal stale tasks",
@@ -223,6 +231,11 @@
     }
   ],
   "commits": [
+    {
+      "sha": "f973c25",
+      "msg": "docs: add sanitized vault template (placeholders only) (#26)",
+      "date": "2026-06-01T04:11:38Z"
+    },
     {
       "sha": "a6538e6",
       "msg": "Tier-1: spend governor + self-heal stale tasks (#25)",
