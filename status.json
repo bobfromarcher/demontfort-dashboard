@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:04:16Z",
+  "generated": "2026-06-01T04:04:49Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 21,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T04:04:02Z",
-      "age_sec": 13
+      "age_sec": 46
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 18,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T03:58:11Z",
-      "age_sec": 364
+      "age_sec": 398
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 396
+      "age_sec": 429
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
       "issue": 15,
-      "ts": "2026-06-01T04:03:38Z",
-      "age_sec": 37
+      "ts": "2026-06-01T04:04:40Z",
+      "age_sec": 8
     }
   ],
   "tasks": [
@@ -107,7 +107,7 @@
       "state": "open",
       "merged": false,
       "url": "https://github.com/bobfromarcher/demontfort/pull/24",
-      "updated": "2026-06-01T04:03:54Z"
+      "updated": "2026-06-01T04:04:40Z"
     },
     {
       "number": 23,
