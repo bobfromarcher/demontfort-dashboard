@@ -1,23 +1,23 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T09:03:54Z",
+  "generated": "2026-06-01T09:04:26Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "offline",
-      "issue": 48,
-      "note": "ready=6 (st=200)",
-      "ts": "2026-06-01T08:48:24Z",
-      "age_sec": 930
+      "status": "working",
+      "issue": 49,
+      "note": "ready=5 (st=200)",
+      "ts": "2026-06-01T09:04:12Z",
+      "age_sec": 14
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T09:03:26Z",
-      "age_sec": 27
+      "status": "reviewing",
+      "issue": 2,
+      "ts": "2026-06-01T09:04:20Z",
+      "age_sec": 6
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T09:03:36Z",
-      "age_sec": 18
+      "age_sec": 50
     }
   ],
   "tasks": [
@@ -38,13 +38,13 @@
     {
       "number": 49,
       "title": "tachyontracker: build out core tracking feature + functional UI",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/49"
     },
     {
       "number": 48,
       "title": "coivalidator: complete core COI validation feature + functional UI",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/48"
     },
     {
@@ -404,9 +404,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0234,
+    "usd": 0.0313,
     "cap": 50.0,
-    "tokens": 26039,
+    "tokens": 34756,
     "paused": false
   }
 }
