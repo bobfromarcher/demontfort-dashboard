@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:28:21Z",
+  "generated": "2026-06-01T10:28:53Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,24 +8,24 @@
       "status": "idle",
       "issue": null,
       "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T10:28:15Z",
-      "age_sec": 6
+      "ts": "2026-06-01T10:28:46Z",
+      "age_sec": 7
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:27:51Z",
-      "age_sec": 30
+      "ts": "2026-06-01T10:28:42Z",
+      "age_sec": 11
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:27:36Z",
-      "age_sec": 44
+      "ts": "2026-06-01T10:28:41Z",
+      "age_sec": 12
     }
   ],
   "tasks": [
@@ -187,7 +187,7 @@
       "state": "open",
       "merged": false,
       "url": "https://github.com/bobfromarcher/demontfort/pull/55",
-      "updated": "2026-06-01T10:28:20Z"
+      "updated": "2026-06-01T10:28:24Z"
     },
     {
       "number": 51,
@@ -344,6 +344,11 @@
   ],
   "commits": [
     {
+      "sha": "321164e",
+      "msg": "Add ship-product playbook (live+payable motion w/ verify checks)",
+      "date": "2026-06-01T10:28:22Z"
+    },
+    {
       "sha": "baf702e",
       "msg": "Deploy automation: Vercel deploy-on-merge (#51)",
       "date": "2026-06-01T09:26:02Z"
@@ -412,11 +417,6 @@
       "sha": "6743e87",
       "msg": "Operator experience: dm CLI + runbook + product backlog (#13)",
       "date": "2026-05-31T17:24:46Z"
-    },
-    {
-      "sha": "f930a0a",
-      "msg": "Harden swarm agent: dedupe list_ready, guard API errors, self-report (#12)",
-      "date": "2026-05-31T17:22:37Z"
     }
   ],
   "platform": {},
