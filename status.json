@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:22:58Z",
+  "generated": "2026-06-01T10:23:30Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 54,
       "note": "ready=3 (st=200)",
       "ts": "2026-06-01T10:19:41Z",
-      "age_sec": 196
+      "age_sec": 229
     },
     {
       "id": "review-agent",
@@ -17,22 +17,22 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T10:22:47Z",
-      "age_sec": 10
+      "age_sec": 43
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T10:22:11Z",
-      "age_sec": 47
+      "ts": "2026-06-01T10:23:16Z",
+      "age_sec": 13
     }
   ],
   "tasks": [
     {
       "number": 54,
       "title": "gradeafoods: fix deploy so the live site serves 200 (currently 404)",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/54"
     },
     {
@@ -98,7 +98,7 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
@@ -110,7 +110,7 @@
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
@@ -422,9 +422,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0705,
+    "usd": 0.0784,
     "cap": 50.0,
-    "tokens": 78297,
+    "tokens": 87098,
     "paused": false
   }
 }
