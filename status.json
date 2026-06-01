@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:14:44Z",
+  "generated": "2026-06-01T04:15:17Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,16 +9,16 @@
       "issue": 21,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T04:04:02Z",
-      "age_sec": 642
+      "age_sec": 674
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "offline",
-      "issue": 18,
-      "note": "ready=5 (st=200)",
-      "ts": "2026-06-01T03:58:11Z",
-      "age_sec": 993
+      "status": "idle",
+      "issue": null,
+      "note": "working #18",
+      "ts": "2026-06-01T04:15:04Z",
+      "age_sec": 12
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,7 +27,7 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 1024
+      "age_sec": 1057
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "reviewing",
       "issue": 15,
       "ts": "2026-06-01T04:14:43Z",
-      "age_sec": 1
+      "age_sec": 33
     }
   ],
   "tasks": [
@@ -60,7 +60,7 @@
     {
       "number": 18,
       "title": "Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/18"
     },
     {
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 27,
+      "title": "[agent-demontfort-s-2] Operator/planner agent: turn CHARTER goals + metrics into prioritized issues",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/27",
+      "updated": "2026-06-01T04:15:02Z"
+    },
     {
       "number": 26,
       "title": "docs: sanitized vault template",
