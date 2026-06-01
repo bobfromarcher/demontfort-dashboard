@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:56:46Z",
+  "generated": "2026-06-01T06:57:19Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,17 +8,17 @@
       "status": "idle",
       "issue": null,
       "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T06:56:28Z",
-      "age_sec": 18
+      "ts": "2026-06-01T06:56:58Z",
+      "age_sec": 20
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
-      "status": "offline",
-      "issue": 37,
-      "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T06:48:28Z",
-      "age_sec": 498
+      "status": "idle",
+      "issue": null,
+      "note": "working #37 on bobfromarcher/gradeafoods",
+      "ts": "2026-06-01T06:56:58Z",
+      "age_sec": 21
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,7 +27,7 @@
       "issue": 16,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 461
+      "age_sec": 493
     },
     {
       "id": "review-agent",
@@ -35,14 +35,14 @@
       "status": "reviewing",
       "issue": 40,
       "ts": "2026-06-01T06:56:21Z",
-      "age_sec": 25
+      "age_sec": 57
     }
   ],
   "tasks": [
     {
       "number": 37,
       "title": "gradeafoods: build the validated v1 thin slice",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/37"
     },
     {
@@ -378,9 +378,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0078,
+    "usd": 0.0157,
     "cap": 5.0,
-    "tokens": 8712,
+    "tokens": 17408,
     "paused": false
   }
 }
