@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T09:25:49Z",
+  "generated": "2026-06-01T09:26:22Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,26 +9,32 @@
       "issue": 49,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T09:04:12Z",
-      "age_sec": 1296
+      "age_sec": 1329
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T09:25:01Z",
-      "age_sec": 48
+      "ts": "2026-06-01T09:25:51Z",
+      "age_sec": 30
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T09:24:59Z",
-      "age_sec": 49
+      "ts": "2026-06-01T09:26:04Z",
+      "age_sec": 17
     }
   ],
   "tasks": [
+    {
+      "number": 52,
+      "title": "gradeafoods: add CI + deploy workflows (.github/workflows)",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/52"
+    },
     {
       "number": 50,
       "title": "gradeafoods: extend v1 grading tool + polish UI/UX",
@@ -163,6 +169,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 51,
+      "title": "Deploy automation: Vercel deploy-on-merge",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/51",
+      "updated": "2026-06-01T09:26:05Z"
+    },
     {
       "number": 47,
       "title": "[agent-demontfort-s-3] Harden review-agent: prompt-injection + dependency + network-call checks",
@@ -314,17 +328,14 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/22",
       "updated": "2026-06-01T03:58:35Z"
-    },
-    {
-      "number": 14,
-      "title": "CRITICAL: fix NameError crashing every worker agent",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/14",
-      "updated": "2026-05-31T17:27:28Z"
     }
   ],
   "commits": [
+    {
+      "sha": "baf702e",
+      "msg": "Deploy automation: Vercel deploy-on-merge (#51)",
+      "date": "2026-06-01T09:26:02Z"
+    },
     {
       "sha": "03dc60d",
       "msg": "Safety foundation: CI gate + verify-agent before any auto-deploy (#43)",
@@ -394,11 +405,6 @@
       "sha": "f930a0a",
       "msg": "Harden swarm agent: dedupe list_ready, guard API errors, self-report (#12)",
       "date": "2026-05-31T17:22:37Z"
-    },
-    {
-      "sha": "4967031",
-      "msg": "Agent discipline: surgical PRs + no aider artifacts (unblock auto-merge) (#11)",
-      "date": "2026-05-31T09:42:32Z"
     }
   ],
   "platform": {},
