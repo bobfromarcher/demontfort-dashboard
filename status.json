@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:00:25Z",
+  "generated": "2026-06-01T04:00:58Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "working",
-      "issue": 19,
-      "note": "ready=4 (st=200)",
-      "ts": "2026-06-01T03:58:44Z",
-      "age_sec": 100
+      "issue": 20,
+      "note": "ready=3 (st=200)",
+      "ts": "2026-06-01T04:00:47Z",
+      "age_sec": 10
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 18,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T03:58:11Z",
-      "age_sec": 134
+      "age_sec": 167
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 165
+      "age_sec": 198
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
-      "issue": 15,
-      "ts": "2026-06-01T04:00:03Z",
-      "age_sec": 21
+      "issue": 23,
+      "ts": "2026-06-01T04:00:49Z",
+      "age_sec": 8
     }
   ],
   "tasks": [
@@ -48,13 +48,13 @@
     {
       "number": 20,
       "title": "Compliance checklist + privacy/ToS/cookies for gradeafoods launch",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/20"
     },
     {
       "number": 19,
       "title": "Research brief: validate the gradeafoods niche food-industry SaaS",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/19"
     },
     {
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 23,
+      "title": "[agent-demontfort-s-1] Research brief: validate the gradeafoods niche food-industry SaaS",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/23",
+      "updated": "2026-06-01T04:00:39Z"
+    },
     {
       "number": 22,
       "title": "Charter + recursive memory + charter-aware agents (autonomous company)",
