@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:58:17Z",
+  "generated": "2026-06-01T07:58:50Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 34,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:58Z",
-      "age_sec": 2238
+      "age_sec": 2272
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 33,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:52Z",
-      "age_sec": 2244
+      "age_sec": 2277
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 36,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T07:43:39Z",
-      "age_sec": 878
+      "age_sec": 911
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T07:57:37Z",
-      "age_sec": 39
+      "ts": "2026-06-01T07:58:26Z",
+      "age_sec": 23
     },
     {
       "id": "verify-agent",
@@ -43,7 +43,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T07:57:52Z",
-      "age_sec": 24
+      "age_sec": 57
     }
   ],
   "tasks": [
@@ -92,25 +92,25 @@
     {
       "number": 36,
       "title": "tachyontracker: UI/UX improvements for clarity and conversion",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/36"
     },
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
