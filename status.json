@@ -1,44 +1,43 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:04:39Z",
+  "generated": "2026-06-01T07:20:36Z",
   "agents": [
-    {
-      "id": "agent-demontfort-s-1",
-      "host": "?",
-      "status": "offline",
-      "issue": 34,
-      "note": "ready=4 (st=200)",
-      "ts": "2026-06-01T06:58:31Z",
-      "age_sec": 368
-    },
-    {
-      "id": "agent-demontfort-s-2",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "self-healed stale #16",
-      "ts": "2026-06-01T07:04:12Z",
-      "age_sec": 27
-    },
-    {
-      "id": "agent-demontfort-s-3",
-      "host": "?",
-      "status": "offline",
-      "issue": 16,
-      "note": "ready=4 (st=200)",
-      "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 933
-    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-01T07:04:09Z",
-      "age_sec": 29
+      "ts": "2026-06-01T07:20:36Z",
+      "age_sec": 0
+    },
+    {
+      "id": "verify-agent",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-06-01T07:20:36Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
+    {
+      "number": 46,
+      "title": "gradeafoods: add CI workflow",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/46"
+    },
+    {
+      "number": 45,
+      "title": "tachyontracker: add CI workflow",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/45"
+    },
+    {
+      "number": 44,
+      "title": "coivalidator: add CI workflow (.github/workflows/ci.yml)",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/44"
+    },
     {
       "number": 37,
       "title": "gradeafoods: build the validated v1 thin slice",
@@ -48,25 +47,25 @@
     {
       "number": 36,
       "title": "tachyontracker: UI/UX improvements for clarity and conversion",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/36"
     },
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
       "number": 33,
       "title": "coivalidator: audit site, fix incorrect info & tighten copy",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/33"
     },
     {
@@ -108,7 +107,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
@@ -138,12 +137,20 @@
   ],
   "pull_requests": [
     {
+      "number": 43,
+      "title": "Safety foundation: CI gate + verify-agent",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/43",
+      "updated": "2026-06-01T07:14:09Z"
+    },
+    {
       "number": 42,
       "title": "Rock-solid: auto-restart, watchdog, 4GB swap, 2 workers",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/42",
-      "updated": "2026-06-01T07:04:35Z"
+      "updated": "2026-06-01T07:04:42Z"
     },
     {
       "number": 41,
@@ -151,7 +158,7 @@
       "state": "closed",
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/41",
-      "updated": "2026-06-01T07:04:32Z"
+      "updated": "2026-06-01T07:04:42Z"
     },
     {
       "number": 40,
@@ -288,17 +295,14 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/12",
       "updated": "2026-05-31T17:22:39Z"
-    },
-    {
-      "number": 11,
-      "title": "Agent discipline: surgical PRs + no aider artifacts (unblock auto-merge)",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/11",
-      "updated": "2026-05-31T09:42:34Z"
     }
   ],
   "commits": [
+    {
+      "sha": "03dc60d",
+      "msg": "Safety foundation: CI gate + verify-agent before any auto-deploy (#43)",
+      "date": "2026-06-01T07:14:06Z"
+    },
     {
       "sha": "a98f596",
       "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#42)",
@@ -368,19 +372,14 @@
       "sha": "4967031",
       "msg": "Agent discipline: surgical PRs + no aider artifacts (unblock auto-merge) (#11)",
       "date": "2026-05-31T09:42:32Z"
-    },
-    {
-      "sha": "9a06292",
-      "msg": "Self-sufficient secrets: vault + auto-sync across all agents (#10)",
-      "date": "2026-05-31T09:24:02Z"
     }
   ],
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0235,
+    "usd": 0.0,
     "cap": 5.0,
-    "tokens": 26108,
+    "tokens": 0,
     "paused": false
   }
 }
