@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:22:53Z",
+  "generated": "2026-06-01T04:23:25Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 21,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T04:04:02Z",
-      "age_sec": 1131
+      "age_sec": 1163
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,17 +17,17 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T04:22:39Z",
-      "age_sec": 14
+      "ts": "2026-06-01T04:23:09Z",
+      "age_sec": 16
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
-      "status": "offline",
-      "issue": 16,
-      "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 1514
+      "status": "idle",
+      "issue": null,
+      "note": "working #16",
+      "ts": "2026-06-01T04:23:24Z",
+      "age_sec": 1
     },
     {
       "id": "review-agent",
@@ -35,7 +35,7 @@
       "status": "reviewing",
       "issue": 15,
       "ts": "2026-06-01T04:22:42Z",
-      "age_sec": 10
+      "age_sec": 43
     }
   ],
   "tasks": [
@@ -72,7 +72,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
