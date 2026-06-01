@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:53:21Z",
+  "generated": "2026-06-01T04:53:53Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T04:52:57Z",
-      "age_sec": 23
+      "ts": "2026-06-01T04:53:28Z",
+      "age_sec": 25
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,8 +17,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T04:53:09Z",
-      "age_sec": 11
+      "ts": "2026-06-01T04:53:40Z",
+      "age_sec": 13
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,16 +26,16 @@
       "status": "idle",
       "issue": null,
       "note": "ready=3 (st=200)",
-      "ts": "2026-06-01T04:53:14Z",
-      "age_sec": 6
+      "ts": "2026-06-01T04:53:44Z",
+      "age_sec": 8
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "reviewing",
-      "issue": 15,
-      "ts": "2026-06-01T04:52:52Z",
-      "age_sec": 29
+      "status": "idle",
+      "issue": null,
+      "ts": "2026-06-01T04:53:37Z",
+      "age_sec": 15
     }
   ],
   "tasks": [
@@ -102,12 +102,20 @@
   ],
   "pull_requests": [
     {
+      "number": 15,
+      "title": "chore(gitignore): exclude local-only dirs (.claude, business docs)",
+      "state": "closed",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/15",
+      "updated": "2026-06-01T04:53:27Z"
+    },
+    {
       "number": 29,
       "title": "chore(gitignore): exclude local-only dirs (supersedes #15)",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/29",
-      "updated": "2026-06-01T04:53:19Z"
+      "updated": "2026-06-01T04:53:24Z"
     },
     {
       "number": 28,
@@ -164,14 +172,6 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/22",
       "updated": "2026-06-01T03:58:35Z"
-    },
-    {
-      "number": 15,
-      "title": "chore(gitignore): exclude local-only dirs (.claude, business docs)",
-      "state": "open",
-      "merged": false,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/15",
-      "updated": "2026-06-01T03:53:45Z"
     },
     {
       "number": 14,
@@ -256,6 +256,11 @@
   ],
   "commits": [
     {
+      "sha": "0b5e442",
+      "msg": "chore(gitignore): exclude local-only dirs (.claude, business docs) (#29)",
+      "date": "2026-06-01T04:53:22Z"
+    },
+    {
       "sha": "99711f9",
       "msg": "Local cockpit: run OpenHands + browser IDE on your own computer ($0) (#28)",
       "date": "2026-06-01T04:40:44Z"
@@ -324,11 +329,6 @@
       "sha": "3132e96",
       "msg": "Merge pull request #1 from bobfromarcher/feat/coordinated-swarm-dashboard",
       "date": "2026-05-31T03:48:47Z"
-    },
-    {
-      "sha": "64e24b1",
-      "msg": "Add coordinated swarm + live control dashboard",
-      "date": "2026-05-31T03:20:22Z"
     }
   ],
   "platform": {}
