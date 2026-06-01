@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T07:43:11Z",
+  "generated": "2026-06-01T07:43:44Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 34,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:58Z",
-      "age_sec": 1333
+      "age_sec": 1366
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,24 +18,24 @@
       "issue": 33,
       "note": "ready=8 (st=200)",
       "ts": "2026-06-01T07:20:52Z",
-      "age_sec": 1339
+      "age_sec": 1371
     },
     {
       "id": "agent-demontfort-s-3",
       "host": "?",
-      "status": "offline",
-      "issue": 16,
-      "note": "ready=8 (st=200)",
-      "ts": "2026-06-01T07:20:46Z",
-      "age_sec": 1345
+      "status": "working",
+      "issue": 36,
+      "note": "ready=5 (st=200)",
+      "ts": "2026-06-01T07:43:39Z",
+      "age_sec": 5
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T07:42:39Z",
-      "age_sec": 31
+      "status": "reviewing",
+      "issue": 47,
+      "ts": "2026-06-01T07:43:28Z",
+      "age_sec": 15
     },
     {
       "id": "verify-agent",
@@ -43,7 +43,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T07:43:06Z",
-      "age_sec": 5
+      "age_sec": 37
     }
   ],
   "tasks": [
@@ -74,13 +74,13 @@
     {
       "number": 36,
       "title": "tachyontracker: UI/UX improvements for clarity and conversion",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/36"
     },
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
@@ -134,7 +134,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
@@ -163,6 +163,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 47,
+      "title": "[agent-demontfort-s-3] Harden review-agent: prompt-injection + dependency + network-call checks",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/47",
+      "updated": "2026-06-01T07:43:25Z"
+    },
     {
       "number": 9,
       "title": "[agent-demontfort-s-1] gradeafoods.com revision",
@@ -314,14 +322,6 @@
       "merged": true,
       "url": "https://github.com/bobfromarcher/demontfort/pull/14",
       "updated": "2026-05-31T17:27:28Z"
-    },
-    {
-      "number": 13,
-      "title": "Operator experience: dm CLI + runbook + product backlog",
-      "state": "closed",
-      "merged": true,
-      "url": "https://github.com/bobfromarcher/demontfort/pull/13",
-      "updated": "2026-05-31T17:24:48Z"
     }
   ],
   "commits": [
@@ -404,9 +404,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0,
+    "usd": 0.0078,
     "cap": 5.0,
-    "tokens": 0,
+    "tokens": 8717,
     "paused": false
   }
 }
