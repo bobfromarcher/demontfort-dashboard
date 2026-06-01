@@ -1,23 +1,23 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T08:48:05Z",
+  "generated": "2026-06-01T08:48:38Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "offline",
-      "issue": 46,
-      "note": "ready=7 (st=200)",
-      "ts": "2026-06-01T08:37:54Z",
-      "age_sec": 610
+      "status": "working",
+      "issue": 48,
+      "note": "ready=6 (st=200)",
+      "ts": "2026-06-01T08:48:24Z",
+      "age_sec": 13
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T08:47:39Z",
-      "age_sec": 26
+      "status": "reviewing",
+      "issue": 3,
+      "ts": "2026-06-01T08:48:30Z",
+      "age_sec": 7
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T08:47:35Z",
-      "age_sec": 29
+      "age_sec": 62
     }
   ],
   "tasks": [
@@ -44,13 +44,13 @@
     {
       "number": 48,
       "title": "coivalidator: complete core COI validation feature + functional UI",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/48"
     },
     {
       "number": 46,
       "title": "gradeafoods: add CI workflow",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/46"
     },
     {
@@ -404,9 +404,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0156,
+    "usd": 0.0234,
     "cap": 50.0,
-    "tokens": 17377,
+    "tokens": 26039,
     "paused": false
   }
 }
