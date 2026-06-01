@@ -1,23 +1,23 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T10:06:11Z",
+  "generated": "2026-06-01T10:06:44Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "working",
-      "issue": 50,
-      "note": "ready=5 (st=200)",
-      "ts": "2026-06-01T10:02:00Z",
-      "age_sec": 251
+      "issue": 52,
+      "note": "ready=4 (st=200)",
+      "ts": "2026-06-01T10:06:35Z",
+      "age_sec": 8
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T10:05:51Z",
-      "age_sec": 19
+      "status": "reviewing",
+      "issue": 5,
+      "ts": "2026-06-01T10:06:43Z",
+      "age_sec": 0
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T10:05:50Z",
-      "age_sec": 20
+      "age_sec": 53
     }
   ],
   "tasks": [
@@ -38,13 +38,13 @@
     {
       "number": 52,
       "title": "gradeafoods: add CI + deploy workflows (.github/workflows)",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/52"
     },
     {
       "number": 50,
       "title": "gradeafoods: extend v1 grading tool + polish UI/UX",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/50"
     },
     {
@@ -416,9 +416,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-01",
-    "usd": 0.0469,
+    "usd": 0.0548,
     "cap": 50.0,
-    "tokens": 52156,
+    "tokens": 60850,
     "paused": false
   }
 }
