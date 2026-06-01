@@ -1,24 +1,24 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:57:19Z",
+  "generated": "2026-06-01T06:57:51Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "note": "ready=2 (st=200)",
-      "ts": "2026-06-01T06:56:58Z",
-      "age_sec": 20
+      "note": "self-healed stale #32",
+      "ts": "2026-06-01T06:57:38Z",
+      "age_sec": 13
     },
     {
       "id": "agent-demontfort-s-2",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "note": "working #37 on bobfromarcher/gradeafoods",
-      "ts": "2026-06-01T06:56:58Z",
-      "age_sec": 21
+      "note": "ready=2 (st=200)",
+      "ts": "2026-06-01T06:57:28Z",
+      "age_sec": 22
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=4 (st=200)",
       "ts": "2026-06-01T06:49:05Z",
-      "age_sec": 493
+      "age_sec": 526
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
-      "issue": 40,
-      "ts": "2026-06-01T06:56:21Z",
-      "age_sec": 57
+      "issue": 2,
+      "ts": "2026-06-01T06:57:29Z",
+      "age_sec": 21
     }
   ],
   "tasks": [
@@ -60,7 +60,7 @@
     {
       "number": 34,
       "title": "coivalidator: UI/UX pass on landing + core flow",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/34"
     },
     {
@@ -72,7 +72,7 @@
     {
       "number": 32,
       "title": "Research: confirm the real purpose + current state of all 3 products",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/32"
     },
     {
