@@ -1,21 +1,48 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T06:48:17Z",
+  "generated": "2026-06-01T06:48:51Z",
   "agents": [
+    {
+      "id": "agent-demontfort-s-1",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "note": "self-healed stale #16",
+      "ts": "2026-06-01T06:48:22Z",
+      "age_sec": 29
+    },
+    {
+      "id": "agent-demontfort-s-2",
+      "host": "?",
+      "status": "working",
+      "issue": 37,
+      "note": "ready=3 (st=200)",
+      "ts": "2026-06-01T06:48:28Z",
+      "age_sec": 23
+    },
+    {
+      "id": "agent-demontfort-s-3",
+      "host": "?",
+      "status": "idle",
+      "issue": null,
+      "note": "self-healed stale #16",
+      "ts": "2026-06-01T06:48:22Z",
+      "age_sec": 29
+    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T06:48:17Z",
-      "age_sec": 0
+      "age_sec": 33
     }
   ],
   "tasks": [
     {
       "number": 37,
       "title": "gradeafoods: build the validated v1 thin slice",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/37"
     },
     {
@@ -51,7 +78,7 @@
     {
       "number": 21,
       "title": "Reusable billing module (Stripe checkout + subscriptions + webhooks)",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/21"
     },
     {
@@ -81,7 +108,7 @@
     {
       "number": 16,
       "title": "Harden review-agent: prompt-injection + dependency + network-call checks",
-      "state": "claimed",
+      "state": "ready",
       "url": "https://github.com/bobfromarcher/demontfort/issues/16"
     },
     {
