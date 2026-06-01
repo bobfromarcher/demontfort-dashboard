@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T04:10:19Z",
+  "generated": "2026-06-01T04:10:52Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,7 +9,7 @@
       "issue": 21,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T04:04:02Z",
-      "age_sec": 377
+      "age_sec": 410
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 18,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T03:58:11Z",
-      "age_sec": 728
+      "age_sec": 761
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 759
+      "age_sec": 793
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
       "issue": 15,
-      "ts": "2026-06-01T04:10:04Z",
-      "age_sec": 14
+      "ts": "2026-06-01T04:10:51Z",
+      "age_sec": 1
     }
   ],
   "tasks": [
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 25,
+      "title": "Tier-1: spend governor + self-heal stale tasks",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/25",
+      "updated": "2026-06-01T04:10:50Z"
+    },
     {
       "number": 24,
       "title": "[agent-demontfort-s-1] Compliance checklist + privacy/ToS/cookies for gradeafoods launch",
@@ -215,6 +223,11 @@
     }
   ],
   "commits": [
+    {
+      "sha": "a6538e6",
+      "msg": "Tier-1: spend governor + self-heal stale tasks (#25)",
+      "date": "2026-06-01T04:10:53Z"
+    },
     {
       "sha": "cce19df",
       "msg": "Charter + recursive memory + charter-aware agents (#22)",
