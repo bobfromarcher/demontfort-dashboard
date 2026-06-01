@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T03:53:27Z",
+  "generated": "2026-06-01T03:53:59Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:53:22Z",
-      "age_sec": 5
+      "ts": "2026-06-01T03:53:52Z",
+      "age_sec": 6
     },
     {
       "id": "agent-demontfort-s-2",
@@ -17,8 +17,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:53:01Z",
-      "age_sec": 26
+      "ts": "2026-06-01T03:53:31Z",
+      "age_sec": 27
     },
     {
       "id": "agent-demontfort-s-3",
@@ -26,16 +26,16 @@
       "status": "idle",
       "issue": null,
       "note": "ready=1 (st=200)",
-      "ts": "2026-06-01T03:53:00Z",
-      "age_sec": 27
+      "ts": "2026-06-01T03:53:30Z",
+      "age_sec": 29
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-01T03:53:11Z",
-      "age_sec": 15
+      "status": "reviewing",
+      "issue": 15,
+      "ts": "2026-06-01T03:53:57Z",
+      "age_sec": 1
     }
   ],
   "tasks": [
@@ -65,6 +65,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 15,
+      "title": "chore(gitignore): exclude local-only dirs (.claude, business docs)",
+      "state": "open",
+      "merged": false,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/15",
+      "updated": "2026-06-01T03:53:45Z"
+    },
     {
       "number": 14,
       "title": "CRITICAL: fix NameError crashing every worker agent",
