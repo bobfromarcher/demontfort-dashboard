@@ -1,14 +1,41 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T05:14:46Z",
+  "generated": "2026-06-01T05:15:20Z",
   "agents": [
+    {
+      "id": "agent-demontfort-s-1",
+      "host": "?",
+      "status": "working",
+      "issue": 5,
+      "note": "ready=9 (st=200)",
+      "ts": "2026-06-01T05:14:58Z",
+      "age_sec": 22
+    },
+    {
+      "id": "agent-demontfort-s-2",
+      "host": "?",
+      "status": "working",
+      "issue": 32,
+      "note": "ready=9 (st=200)",
+      "ts": "2026-06-01T05:15:15Z",
+      "age_sec": 5
+    },
+    {
+      "id": "agent-demontfort-s-3",
+      "host": "?",
+      "status": "working",
+      "issue": 16,
+      "note": "ready=9 (st=200)",
+      "ts": "2026-06-01T05:15:04Z",
+      "age_sec": 16
+    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
       "ts": "2026-06-01T05:14:46Z",
-      "age_sec": 0
+      "age_sec": 34
     }
   ],
   "tasks": [
@@ -45,7 +72,7 @@
     {
       "number": 32,
       "title": "Research: confirm the real purpose + current state of all 3 products",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/32"
     },
     {
