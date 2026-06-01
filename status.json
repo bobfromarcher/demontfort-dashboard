@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-01T03:58:14Z",
+  "generated": "2026-06-01T03:58:47Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "working",
-      "issue": 17,
-      "note": "ready=6 (st=200)",
-      "ts": "2026-06-01T03:58:01Z",
-      "age_sec": 12
+      "issue": 19,
+      "note": "ready=4 (st=200)",
+      "ts": "2026-06-01T03:58:44Z",
+      "age_sec": 2
     },
     {
       "id": "agent-demontfort-s-2",
@@ -18,7 +18,7 @@
       "issue": 18,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-01T03:58:11Z",
-      "age_sec": 3
+      "age_sec": 36
     },
     {
       "id": "agent-demontfort-s-3",
@@ -27,15 +27,15 @@
       "issue": 16,
       "note": "ready=2 (st=200)",
       "ts": "2026-06-01T03:57:39Z",
-      "age_sec": 35
+      "age_sec": 68
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "reviewing",
       "issue": 15,
-      "ts": "2026-06-01T03:57:46Z",
-      "age_sec": 28
+      "ts": "2026-06-01T03:58:32Z",
+      "age_sec": 15
     }
   ],
   "tasks": [
@@ -54,7 +54,7 @@
     {
       "number": 19,
       "title": "Research brief: validate the gradeafoods niche food-industry SaaS",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/19"
     },
     {
@@ -66,7 +66,7 @@
     {
       "number": 17,
       "title": "Nightly maintenance agent: deps, tests, cost report, stale-branch cleanup",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/17"
     },
     {
@@ -101,6 +101,14 @@
     }
   ],
   "pull_requests": [
+    {
+      "number": 22,
+      "title": "Charter + recursive memory + charter-aware agents (autonomous company)",
+      "state": "closed",
+      "merged": true,
+      "url": "https://github.com/bobfromarcher/demontfort/pull/22",
+      "updated": "2026-06-01T03:58:35Z"
+    },
     {
       "number": 15,
       "title": "chore(gitignore): exclude local-only dirs (.claude, business docs)",
@@ -191,6 +199,11 @@
     }
   ],
   "commits": [
+    {
+      "sha": "cce19df",
+      "msg": "Charter + recursive memory + charter-aware agents (#22)",
+      "date": "2026-06-01T03:58:33Z"
+    },
     {
       "sha": "c58b163",
       "msg": "CRITICAL: fix NameError that crashed every worker agent (#14)",
