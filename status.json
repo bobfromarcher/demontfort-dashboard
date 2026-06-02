@@ -1,22 +1,22 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T09:02:40Z",
+  "generated": "2026-06-02T09:03:13Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T09:01:55Z",
-      "age_sec": 45
+      "ts": "2026-06-02T09:02:46Z",
+      "age_sec": 27
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T09:01:50Z",
-      "age_sec": 50
+      "ts": "2026-06-02T09:02:56Z",
+      "age_sec": 17
     }
   ],
   "tasks": [
@@ -425,6 +425,11 @@
   ],
   "commits": [
     {
+      "sha": "96ede7c",
+      "msg": "Worker reliability: instant startup heartbeat (before any net call), aider availability check, guarded aider call (FileNotFound/timeout->release+stay alive), crash-proof refresh",
+      "date": "2026-06-02T09:02:57Z"
+    },
+    {
       "sha": "7c89f70",
       "msg": "brand: color & sentiment bible \u2014 product palette is name-driven, separate from branch emblem",
       "date": "2026-06-02T08:35:26Z"
@@ -493,11 +498,6 @@
       "sha": "96cc307",
       "msg": "Model routing (Fireworks-only): kimi-k2p6 for design, deepseek-v4-pro for hard, gpt-oss-120b for routine",
       "date": "2026-06-02T01:05:25Z"
-    },
-    {
-      "sha": "e90f8fa",
-      "msg": "Per-role model routing: design/hard tasks -> Claude if keyed, else DeepSeek-v4-pro",
-      "date": "2026-06-02T00:30:44Z"
     }
   ],
   "platform": {},
