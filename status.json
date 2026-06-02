@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T04:29:29Z",
+  "generated": "2026-06-02T04:30:01Z",
   "agents": [
     {
       "id": "review-agent",
@@ -8,7 +8,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T04:29:14Z",
-      "age_sec": 14
+      "age_sec": 46
     },
     {
       "id": "verify-agent",
@@ -16,7 +16,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T04:29:08Z",
-      "age_sec": 20
+      "age_sec": 53
     }
   ],
   "tasks": [
@@ -377,6 +377,11 @@
   ],
   "commits": [
     {
+      "sha": "b3f6b1b",
+      "msg": "C-suite: business credibility, trust & privacy strategy",
+      "date": "2026-06-02T04:29:41Z"
+    },
+    {
       "sha": "a0c5315",
       "msg": "Fix swarm_agent commit email to valid GitHub address (unblocks Vercel deploys)",
       "date": "2026-06-02T04:24:31Z"
@@ -445,11 +450,6 @@
       "sha": "a98f596",
       "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#42)",
       "date": "2026-06-01T07:04:39Z"
-    },
-    {
-      "sha": "1074b68",
-      "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#41)",
-      "date": "2026-06-01T07:04:24Z"
     }
   ],
   "platform": {},
