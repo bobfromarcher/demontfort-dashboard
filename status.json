@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T00:27:47Z",
+  "generated": "2026-06-02T00:28:19Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,24 +8,24 @@
       "status": "idle",
       "issue": null,
       "note": "ready=2 (st=200)",
-      "ts": "2026-06-02T00:27:28Z",
-      "age_sec": 18
+      "ts": "2026-06-02T00:27:59Z",
+      "age_sec": 19
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T00:27:24Z",
-      "age_sec": 22
+      "ts": "2026-06-02T00:28:15Z",
+      "age_sec": 3
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T00:27:02Z",
-      "age_sec": 44
+      "ts": "2026-06-02T00:28:07Z",
+      "age_sec": 11
     }
   ],
   "tasks": [
@@ -344,6 +344,16 @@
   ],
   "commits": [
     {
+      "sha": "940078c",
+      "msg": "design: add design-system.css",
+      "date": "2026-06-02T00:28:16Z"
+    },
+    {
+      "sha": "a924e2a",
+      "msg": "design: add designer.md",
+      "date": "2026-06-02T00:28:13Z"
+    },
+    {
       "sha": "ba3188d",
       "msg": "Fix deploy: native vercel deploy + framework gotcha (gradeafoods live 200)",
       "date": "2026-06-01T14:49:31Z"
@@ -407,16 +417,6 @@
       "sha": "99711f9",
       "msg": "Local cockpit: run OpenHands + browser IDE on your own computer ($0) (#28)",
       "date": "2026-06-01T04:40:44Z"
-    },
-    {
-      "sha": "f973c25",
-      "msg": "docs: add sanitized vault template (placeholders only) (#26)",
-      "date": "2026-06-01T04:11:38Z"
-    },
-    {
-      "sha": "a6538e6",
-      "msg": "Tier-1: spend governor + self-heal stale tasks (#25)",
-      "date": "2026-06-01T04:10:53Z"
     }
   ],
   "platform": {},
