@@ -1,14 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T05:36:18Z",
+  "generated": "2026-06-02T05:36:50Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T05:35:52Z",
-      "age_sec": 26
+      "ts": "2026-06-02T05:36:43Z",
+      "age_sec": 7
     },
     {
       "id": "verify-agent",
@@ -16,7 +16,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T05:35:50Z",
-      "age_sec": 28
+      "age_sec": 60
     }
   ],
   "tasks": [
@@ -377,6 +377,11 @@
   ],
   "commits": [
     {
+      "sha": "24f826c",
+      "msg": "Add per-product brand system (distinct identities under de Montfort LLC)",
+      "date": "2026-06-02T05:36:41Z"
+    },
+    {
       "sha": "b3f6b1b",
       "msg": "C-suite: business credibility, trust & privacy strategy",
       "date": "2026-06-02T04:29:41Z"
@@ -445,11 +450,6 @@
       "sha": "03dc60d",
       "msg": "Safety foundation: CI gate + verify-agent before any auto-deploy (#43)",
       "date": "2026-06-01T07:14:06Z"
-    },
-    {
-      "sha": "a98f596",
-      "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#42)",
-      "date": "2026-06-01T07:04:39Z"
     }
   ],
   "platform": {},
