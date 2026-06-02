@@ -1,15 +1,15 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T00:50:17Z",
+  "generated": "2026-06-02T00:50:49Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "working",
-      "issue": 58,
-      "note": "ready=3 (st=200)",
-      "ts": "2026-06-02T00:45:57Z",
-      "age_sec": 259
+      "status": "idle",
+      "issue": null,
+      "note": "working #58 on bobfromarcher/tachyontracker",
+      "ts": "2026-06-02T00:50:45Z",
+      "age_sec": 4
     },
     {
       "id": "review-agent",
@@ -17,7 +17,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T00:50:10Z",
-      "age_sec": 7
+      "age_sec": 39
     },
     {
       "id": "verify-agent",
@@ -25,14 +25,14 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T00:49:50Z",
-      "age_sec": 27
+      "age_sec": 59
     }
   ],
   "tasks": [
     {
       "number": 58,
       "title": "tachyontracker: redesign landing to human-quality, trustworthy UI",
-      "state": "claimed",
+      "state": "in-review",
       "url": "https://github.com/bobfromarcher/demontfort/issues/58"
     },
     {
@@ -440,9 +440,9 @@
   "platform": {},
   "spend": {
     "day": "2026-06-02",
-    "usd": 0.0153,
+    "usd": 0.0229,
     "cap": 50.0,
-    "tokens": 16998,
+    "tokens": 25441,
     "paused": false
   }
 }
