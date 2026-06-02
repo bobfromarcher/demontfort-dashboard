@@ -1,22 +1,22 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T08:34:30Z",
+  "generated": "2026-06-02T08:35:02Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T08:33:43Z",
-      "age_sec": 47
+      "ts": "2026-06-02T08:34:34Z",
+      "age_sec": 28
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T08:33:26Z",
-      "age_sec": 64
+      "ts": "2026-06-02T08:34:32Z",
+      "age_sec": 30
     }
   ],
   "tasks": [
@@ -401,6 +401,16 @@
   ],
   "commits": [
     {
+      "sha": "3fbcfcc",
+      "msg": "brand: APPROVED emblem \u2014 black badge, sharp bars, slant 8, strong color-accent glow, frame-clipped",
+      "date": "2026-06-02T08:34:49Z"
+    },
+    {
+      "sha": "5d383f0",
+      "msg": "brand: APPROVED emblem \u2014 black badge, sharp bars, slant 8, strong color-accent glow, frame-clipped",
+      "date": "2026-06-02T08:34:47Z"
+    },
+    {
       "sha": "6b7d2c0",
       "msg": "brand: flip slant +20, steeper, accentuate-by-brightness (all colors visible)",
       "date": "2026-06-02T08:12:54Z"
@@ -464,16 +474,6 @@
       "sha": "940078c",
       "msg": "design: add design-system.css",
       "date": "2026-06-02T00:28:16Z"
-    },
-    {
-      "sha": "a924e2a",
-      "msg": "design: add designer.md",
-      "date": "2026-06-02T00:28:13Z"
-    },
-    {
-      "sha": "ba3188d",
-      "msg": "Fix deploy: native vercel deploy + framework gotcha (gradeafoods live 200)",
-      "date": "2026-06-01T14:49:31Z"
     }
   ],
   "platform": {},
