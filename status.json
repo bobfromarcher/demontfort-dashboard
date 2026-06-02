@@ -1,14 +1,14 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T08:12:41Z",
+  "generated": "2026-06-02T08:13:14Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T08:12:08Z",
-      "age_sec": 32
+      "ts": "2026-06-02T08:13:00Z",
+      "age_sec": 13
     },
     {
       "id": "verify-agent",
@@ -16,7 +16,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T08:12:35Z",
-      "age_sec": 6
+      "age_sec": 39
     }
   ],
   "tasks": [
@@ -401,6 +401,16 @@
   ],
   "commits": [
     {
+      "sha": "6b7d2c0",
+      "msg": "brand: flip slant +20, steeper, accentuate-by-brightness (all colors visible)",
+      "date": "2026-06-02T08:12:54Z"
+    },
+    {
+      "sha": "b9a762b",
+      "msg": "brand: flip slant +20, steeper, accentuate-by-brightness (all colors visible)",
+      "date": "2026-06-02T08:12:52Z"
+    },
+    {
       "sha": "69fb437",
       "msg": "brand: brand/demontfort-emblem.svg",
       "date": "2026-06-02T08:05:32Z"
@@ -464,16 +474,6 @@
       "sha": "ba3188d",
       "msg": "Fix deploy: native vercel deploy + framework gotcha (gradeafoods live 200)",
       "date": "2026-06-01T14:49:31Z"
-    },
-    {
-      "sha": "01c54c9",
-      "msg": "playbook: Vercel framework-must-be-set gotcha (the gradeafoods 404 cause)",
-      "date": "2026-06-01T10:47:45Z"
-    },
-    {
-      "sha": "2870641",
-      "msg": "Fix deploy.yml: native vercel deploy (drop --prebuilt that served 404)",
-      "date": "2026-06-01T10:47:29Z"
     }
   ],
   "platform": {},
