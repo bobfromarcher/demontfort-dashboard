@@ -1,31 +1,31 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T00:37:24Z",
+  "generated": "2026-06-02T00:37:56Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "self-healed stale #33",
-      "ts": "2026-06-02T00:37:19Z",
-      "age_sec": 4
+      "status": "working",
+      "issue": 57,
+      "note": "ready=4 (st=200)",
+      "ts": "2026-06-02T00:37:36Z",
+      "age_sec": 19
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-02T00:36:39Z",
-      "age_sec": 44
+      "status": "reviewing",
+      "issue": 8,
+      "ts": "2026-06-02T00:37:32Z",
+      "age_sec": 24
     },
     {
       "id": "verify-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-02T00:36:46Z",
-      "age_sec": 37
+      "status": "verifying",
+      "issue": 8,
+      "ts": "2026-06-02T00:37:53Z",
+      "age_sec": 3
     }
   ],
   "tasks": [
@@ -38,7 +38,7 @@
     {
       "number": 57,
       "title": "coivalidator: redesign landing to human-quality, trustworthy UI",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/57"
     },
     {
@@ -116,7 +116,7 @@
     {
       "number": 35,
       "title": "tachyontracker: correct site info and clarify the product",
-      "state": "ready",
+      "state": "claimed",
       "url": "https://github.com/bobfromarcher/demontfort/issues/35"
     },
     {
