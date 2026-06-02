@@ -1,22 +1,22 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T01:53:24Z",
+  "generated": "2026-06-02T01:53:56Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T01:52:49Z",
-      "age_sec": 34
+      "ts": "2026-06-02T01:53:40Z",
+      "age_sec": 15
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T01:52:30Z",
-      "age_sec": 53
+      "ts": "2026-06-02T01:53:35Z",
+      "age_sec": 20
     }
   ],
   "tasks": [
@@ -353,6 +353,11 @@
   ],
   "commits": [
     {
+      "sha": "67f07be",
+      "msg": "Fix verify-agent: build-env stubs (DATABASE_URL/Stripe) + guaranteed non-empty logs + separate install/build failures",
+      "date": "2026-06-02T01:53:51Z"
+    },
+    {
       "sha": "96cc307",
       "msg": "Model routing (Fireworks-only): kimi-k2p6 for design, deepseek-v4-pro for hard, gpt-oss-120b for routine",
       "date": "2026-06-02T01:05:25Z"
@@ -421,11 +426,6 @@
       "sha": "eafc187",
       "msg": "Cross-repo: agents build & review the product repos, not just the hub (#31)",
       "date": "2026-06-01T05:07:16Z"
-    },
-    {
-      "sha": "26868a1",
-      "msg": "Cross-repo: agents build & review the product repos, not just the hub (#30)",
-      "date": "2026-06-01T05:05:58Z"
     }
   ],
   "platform": {},
