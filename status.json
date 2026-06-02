@@ -1,25 +1,49 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T08:57:15Z",
+  "generated": "2026-06-02T08:57:47Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T08:56:47Z",
-      "age_sec": 28
+      "ts": "2026-06-02T08:57:38Z",
+      "age_sec": 9
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T08:56:22Z",
-      "age_sec": 52
+      "ts": "2026-06-02T08:57:28Z",
+      "age_sec": 19
     }
   ],
   "tasks": [
+    {
+      "number": 70,
+      "title": "SEO foundation: sitemap + meta + OG on tachyontracker & coivalidator",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/70"
+    },
+    {
+      "number": 69,
+      "title": "SEO: build first batch of contract-template landing pages (programmatic)",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/69"
+    },
+    {
+      "number": 68,
+      "title": "COI Validator: convert to focused SEO feeder that funnels to TachyonTracker",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/68"
+    },
+    {
+      "number": 67,
+      "title": "Roll de Montfort emblem into all 3 product footers (branch-accented)",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/67"
+    },
     {
       "number": 66,
       "title": "Differentiate the 3 product brands (Pepsi/Starry under PepsiCo)",
