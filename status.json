@@ -1,31 +1,31 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T00:50:49Z",
+  "generated": "2026-06-02T00:51:21Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "note": "working #58 on bobfromarcher/tachyontracker",
-      "ts": "2026-06-02T00:50:45Z",
-      "age_sec": 4
+      "note": "ready=2 (st=200)",
+      "ts": "2026-06-02T00:51:15Z",
+      "age_sec": 5
     },
     {
       "id": "review-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-02T00:50:10Z",
-      "age_sec": 39
+      "status": "reviewing",
+      "issue": 6,
+      "ts": "2026-06-02T00:51:04Z",
+      "age_sec": 16
     },
     {
       "id": "verify-agent",
       "host": "?",
-      "status": "idle",
-      "issue": null,
-      "ts": "2026-06-02T00:49:50Z",
-      "age_sec": 59
+      "status": "verifying",
+      "issue": 6,
+      "ts": "2026-06-02T00:50:59Z",
+      "age_sec": 22
     }
   ],
   "tasks": [
