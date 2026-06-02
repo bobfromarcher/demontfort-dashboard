@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T00:30:26Z",
+  "generated": "2026-06-02T00:30:58Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -9,15 +9,15 @@
       "issue": 56,
       "note": "ready=5 (st=200)",
       "ts": "2026-06-02T00:29:06Z",
-      "age_sec": 80
+      "age_sec": 112
     },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T00:29:56Z",
-      "age_sec": 30
+      "ts": "2026-06-02T00:30:47Z",
+      "age_sec": 11
     },
     {
       "id": "verify-agent",
@@ -25,7 +25,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T00:30:17Z",
-      "age_sec": 9
+      "age_sec": 41
     }
   ],
   "tasks": [
@@ -362,6 +362,11 @@
   ],
   "commits": [
     {
+      "sha": "e90f8fa",
+      "msg": "Per-role model routing: design/hard tasks -> Claude if keyed, else DeepSeek-v4-pro",
+      "date": "2026-06-02T00:30:44Z"
+    },
+    {
       "sha": "940078c",
       "msg": "design: add design-system.css",
       "date": "2026-06-02T00:28:16Z"
@@ -430,11 +435,6 @@
       "sha": "0b5e442",
       "msg": "chore(gitignore): exclude local-only dirs (.claude, business docs) (#29)",
       "date": "2026-06-01T04:53:22Z"
-    },
-    {
-      "sha": "99711f9",
-      "msg": "Local cockpit: run OpenHands + browser IDE on your own computer ($0) (#28)",
-      "date": "2026-06-01T04:40:44Z"
     }
   ],
   "platform": {},
