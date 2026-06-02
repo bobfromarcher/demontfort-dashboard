@@ -1,31 +1,22 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T01:05:21Z",
+  "generated": "2026-06-02T01:10:54Z",
   "agents": [
-    {
-      "id": "agent-demontfort-s-1",
-      "host": "?",
-      "status": "idle",
-      "issue": null,
-      "note": "ready=2 (st=200)",
-      "ts": "2026-06-02T01:05:10Z",
-      "age_sec": 10
-    },
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T01:04:40Z",
-      "age_sec": 41
+      "ts": "2026-06-02T01:10:54Z",
+      "age_sec": 0
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T01:05:16Z",
-      "age_sec": 5
+      "ts": "2026-06-02T01:10:54Z",
+      "age_sec": 0
     }
   ],
   "tasks": [
@@ -362,6 +353,11 @@
   ],
   "commits": [
     {
+      "sha": "96cc307",
+      "msg": "Model routing (Fireworks-only): kimi-k2p6 for design, deepseek-v4-pro for hard, gpt-oss-120b for routine",
+      "date": "2026-06-02T01:05:25Z"
+    },
+    {
       "sha": "e90f8fa",
       "msg": "Per-role model routing: design/hard tasks -> Claude if keyed, else DeepSeek-v4-pro",
       "date": "2026-06-02T00:30:44Z"
@@ -430,19 +426,14 @@
       "sha": "26868a1",
       "msg": "Cross-repo: agents build & review the product repos, not just the hub (#30)",
       "date": "2026-06-01T05:05:58Z"
-    },
-    {
-      "sha": "0b5e442",
-      "msg": "chore(gitignore): exclude local-only dirs (.claude, business docs) (#29)",
-      "date": "2026-06-01T04:53:22Z"
     }
   ],
   "platform": {},
   "spend": {
     "day": "2026-06-02",
-    "usd": 0.0229,
+    "usd": 0.0,
     "cap": 50.0,
-    "tokens": 25441,
+    "tokens": 0,
     "paused": false
   }
 }
