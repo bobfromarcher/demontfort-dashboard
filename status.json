@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T00:28:19Z",
+  "generated": "2026-06-02T00:28:51Z",
   "agents": [
     {
       "id": "agent-demontfort-s-1",
@@ -8,8 +8,8 @@
       "status": "idle",
       "issue": null,
       "note": "ready=2 (st=200)",
-      "ts": "2026-06-02T00:27:59Z",
-      "age_sec": 19
+      "ts": "2026-06-02T00:28:29Z",
+      "age_sec": 21
     },
     {
       "id": "review-agent",
@@ -17,7 +17,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T00:28:15Z",
-      "age_sec": 3
+      "age_sec": 35
     },
     {
       "id": "verify-agent",
@@ -25,10 +25,28 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T00:28:07Z",
-      "age_sec": 11
+      "age_sec": 43
     }
   ],
   "tasks": [
+    {
+      "number": 58,
+      "title": "tachyontracker: redesign landing to human-quality, trustworthy UI",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/58"
+    },
+    {
+      "number": 57,
+      "title": "coivalidator: redesign landing to human-quality, trustworthy UI",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/57"
+    },
+    {
+      "number": 56,
+      "title": "gradeafoods: redesign landing to human-quality, trustworthy UI",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/56"
+    },
     {
       "number": 54,
       "title": "gradeafoods: fix deploy so the live site serves 200 (currently 404)",
