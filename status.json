@@ -1,25 +1,49 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T04:28:57Z",
+  "generated": "2026-06-02T04:29:29Z",
   "agents": [
     {
       "id": "review-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T04:28:23Z",
-      "age_sec": 33
+      "ts": "2026-06-02T04:29:14Z",
+      "age_sec": 14
     },
     {
       "id": "verify-agent",
       "host": "?",
       "status": "idle",
       "issue": null,
-      "ts": "2026-06-02T04:28:02Z",
-      "age_sec": 54
+      "ts": "2026-06-02T04:29:08Z",
+      "age_sec": 20
     }
   ],
   "tasks": [
+    {
+      "number": 62,
+      "title": "Set up professional email + DNS records (SPF/DKIM/DMARC) for deliverability",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/62"
+    },
+    {
+      "number": 61,
+      "title": "Company credibility: consistent de Montfort LLC branding + Org schema across all sites",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/61"
+    },
+    {
+      "number": 60,
+      "title": "All products: add a Trust/Security page (de Montfort LLC credibility)",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/60"
+    },
+    {
+      "number": 59,
+      "title": "coivalidator: add Privacy Policy + Terms pages + footer links",
+      "state": "ready",
+      "url": "https://github.com/bobfromarcher/demontfort/issues/59"
+    },
     {
       "number": 58,
       "title": "tachyontracker: redesign landing to human-quality, trustworthy UI",
