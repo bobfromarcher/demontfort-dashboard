@@ -1,6 +1,6 @@
 {
   "swarm": "de-montfort",
-  "generated": "2026-06-02T04:24:07Z",
+  "generated": "2026-06-02T04:24:39Z",
   "agents": [
     {
       "id": "review-agent",
@@ -8,7 +8,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T04:24:06Z",
-      "age_sec": 0
+      "age_sec": 33
     },
     {
       "id": "verify-agent",
@@ -16,7 +16,7 @@
       "status": "idle",
       "issue": null,
       "ts": "2026-06-02T04:23:39Z",
-      "age_sec": 28
+      "age_sec": 60
     }
   ],
   "tasks": [
@@ -353,6 +353,16 @@
   ],
   "commits": [
     {
+      "sha": "a0c5315",
+      "msg": "Fix swarm_agent commit email to valid GitHub address (unblocks Vercel deploys)",
+      "date": "2026-06-02T04:24:31Z"
+    },
+    {
+      "sha": "1895c31",
+      "msg": "Fix swarm commit email to valid GitHub address (Vercel was rejecting swarm@demontfort.local)",
+      "date": "2026-06-02T04:24:17Z"
+    },
+    {
       "sha": "67f07be",
       "msg": "Fix verify-agent: build-env stubs (DATABASE_URL/Stripe) + guaranteed non-empty logs + separate install/build failures",
       "date": "2026-06-02T01:53:51Z"
@@ -416,16 +426,6 @@
       "sha": "1074b68",
       "msg": "Rock-solid: auto-restart agents, idempotent launcher, watchdog timer (#41)",
       "date": "2026-06-01T07:04:24Z"
-    },
-    {
-      "sha": "d0d8cad",
-      "msg": "Fix cross-repo: use API default_branch (product repos default to devin/* not main) (#39)",
-      "date": "2026-06-01T06:39:51Z"
-    },
-    {
-      "sha": "eafc187",
-      "msg": "Cross-repo: agents build & review the product repos, not just the hub (#31)",
-      "date": "2026-06-01T05:07:16Z"
     }
   ],
   "platform": {},
